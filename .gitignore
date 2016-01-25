@@ -39,3 +39,6 @@ nosetests.xml
 *.komodoproject
 
 .DS_Store
+
+# Class files
+*.class
