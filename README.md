@@ -1,21 +1,22 @@
 Mega Project List
 ========
+### All solutions are by me (AussieGuy0).
 
 ## Table of Contents
 
-- [Numbers](https://github.com/karan/Projects#numbers)
-- [Classic Algorithms](https://github.com/karan/Projects#classic-algorithms)
-- [Graph](https://github.com/karan/Projects#graph)
-- [Data Structures](https://github.com/karan/Projects#data-structures)
-- [Text](https://github.com/karan/Projects#text)
-- [Networking](https://github.com/karan/Projects#networking)
-- [Classes](https://github.com/karan/Projects#classes)
-- [Threading](https://github.com/karan/Projects#threading)
-- [Web](https://github.com/karan/Projects#web)
-- [Files](https://github.com/karan/Projects#files)
-- [Databases](https://github.com/karan/Projects#databases)
-- [Graphics and Multimedia](https://github.com/karan/Projects#graphics-and-multimedia)
-- [Security](https://github.com/karan/Projects#security)
+- [Numbers](https://github.com/AussieGuy0/Projects#numbers)
+- [Classic Algorithms](https://github.com/AussieGuy0/Projects#classic-algorithms)
+- [Graph](https://github.com/AussieGuy0/Projects#graph)
+- [Data Structures](https://github.com/AussieGuy0/Projects#data-structures)
+- [Text](https://github.com/AussieGuy0/Projects#text)
+- [Networking](https://github.com/AussieGuy0/Projects#networking)
+- [Classes](https://github.com/AussieGuy0/Projects#classes)
+- [Threading](https://github.com/AussieGuy0/Projects#threading)
+- [Web](https://github.com/AussieGuy0/Projects#web)
+- [Files](https://github.com/AussieGuy0/Projects#files)
+- [Databases](https://github.com/AussieGuy0/Projects#databases)
+- [Graphics and Multimedia](https://github.com/AussieGuy0/Projects#graphics-and-multimedia)
+- [Security](https://github.com/AussieGuy0/Projects#security)
 
 Numbers
 ---------
@@ -34,7 +35,7 @@ Numbers
 
 **Mortgage Calculator** - Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan. For added complexity, add an option for users to select the compounding interval (Monthly, Weekly, Daily, Continually).
 
-(**Change Return Program**)[/mysolutions/numbers/ChangeReturn.java]- The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
+[**Change Return Program**](/mysolutions/numbers/ChangeReturn.java) The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
 
 **Binary to Decimal and Back Converter** - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
 
