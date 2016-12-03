@@ -72,6 +72,8 @@ Classic Algorithms
 
 **Sorting** - Implement two types of sorting algorithms: Merge sort and bubble sort.
 
+**Quicksort** - Using [Recursion](/mysolutions/algorthims/QuicksortRecursive.java) and [Iteration](/mysolutions/algorthims/QuicksortIterative.java)
+
 **Closest pair problem** - The closest pair of points problem or closest pair problem is a problem of computational geometry: given *n* points in metric space, find a pair of points with the smallest distance between them.
 
 **Sieve of Eratosthenes** - The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so).
@@ -142,6 +144,8 @@ Networking
 **Whois Search Tool** - Enter an IP or host address and have it look it up through whois and return the results to you.
 
 **Site Checker with Time Scheduling** - An application that attempts to connect to a website or server every so many minutes or a given time and check if it is up. If it is down, it will notify you by email or by posting a notice on screen.
+
+[**Chat Client**](/mysolutions/networking/java-client) - Send and recieve messages through a relay server.
 
 
 Classes
