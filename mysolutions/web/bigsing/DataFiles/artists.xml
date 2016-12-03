@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE artists[
+ <!ELEMENT artists (artist+)>
+ <!ELEMENT artist (number, name, promo, status, fee, manager, performer+)>
+ <!ELEMENT number (#PCDATA)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT promo (#PCDATA)>
+ <!ELEMENT status (#PCDATA)>
+ <!ELEMENT fee (#PCDATA)>
+ <!ELEMENT manager (#PCDATA)>
+ <!ELEMENT performer (#PCDATA)>
+]>
+
+<artists>
+  <artist>
+    <number> 0001 </number>
+    <name> Paradox </name>
+    <promo> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Nunc venenatis ex sit amet tortor posuere facilisis. Integer feugiat
+      ligula in dolor finibus, in malesuada nisl convallis. Suspendisse malesuada
+      accumsan dui eget sodales. Pellentesque ornare a turpis et facilisis. Morbi
+      id egestas metus. Cras eget mauris nibh. Duis sit amet enim leo.
+      Fusce suscipit ipsum nec sollicitudin mollis. </promo>
+    <status> B </status>
+    <fee> $10,000 </fee>
+    <manager> Bob Smith </manager>
+    <performer> Sam Bywater </performer>
+    <performer> Josh Hoskins </performer>
+    <performer> Jesse Dylan </performer>
+    <performer> Daniel Damon </performer>
+  </artist>
+  <artist>
+    <number> 0002 </number>
+    <name> National Terminator </name>
+    <promo> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Nunc venenatis ex sit amet tortor posuere facilisis. </promo>
+    <status> B </status>
+    <fee> $20,000 </fee>
+    <manager> Byron	Craig </manager>
+    <performer> Dwight Harris </performer>
+    <performer> Leo	Thornton </performer>
+    <performer> Brad Stanley </performer>
+  </artist>
+  <artist>
+    <number> 0003 </number>
+    <name> Binding the Giant </name>
+    <promo> consectetur adipiscing elit.
+      Nunc venenatis ex sit amet tortor posuere facilisis. Integer feugiat
+      ligula in dolor finibus, in malesuada nisl convallis. </promo>
+    <status> T </status>
+    <fee> $3,000 </fee>
+    <manager> Domingo	Mathis </manager>
+    <performer> Simon	Evans</performer>
+    <performer> Otis	Mason </performer>
+    <performer> Rafael Marsh </performer>
+    <performer> Antonio	Gibbs </performer>
+    <performer> Corey	Scott </performer>
+  </artist>
+  <artist>
+    <number> 0004 </number>
+    <name> 720 </name>
+    <promo> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Nunc venenatis ex sit amet tortor posuere facilisis. Integer feugiat
+      ligula in dolor finibus, in malesuada nisl convallis. </promo>
+    <status> C </status>
+    <fee> $10,000 </fee>
+    <manager> Maurice	Jenkins </manager>
+    <performer> Neil Daniels </performer>
+  </artist>
+</artists>

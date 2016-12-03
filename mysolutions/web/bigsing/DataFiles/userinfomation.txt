@@ -1,0 +1,4 @@
+user:name:address:email:homephone:mobile
+bob:Robert Sage:123 real street, Adelaide:bob@gmail.com:08 8473 3273:
+cooldude:Steven:321 fake street, Adelaide:steve@yahoo.com:08 8113 3433:04 3432 242542
+pete:Peter Rich:7 rich drive, Adelaide:rich@gmail.com:08 8543 4444:

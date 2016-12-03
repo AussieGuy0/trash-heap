@@ -1,0 +1,7 @@
+PerformanceCode:Artist:timedate:duration:classification
+FL34:Binding The Giant:8.00pm 1 Nov.:45 Minutes:G
+HQ02:Binding The Giant:7.00pm 6 Nov.:60 Minutes:X
+TT21:720:6.00pm 6 Nov.:30 Minutes:S
+FL05:Paradox:7.30pm 7 Nov.:60 Minutes:S
+TG22:National Terminator:2.00pm 14 Nov.:45 Minutes:G
+HQ71:720:8.00pm 14 Nov.:60 Minutes:X

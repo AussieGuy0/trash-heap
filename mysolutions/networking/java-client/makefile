@@ -1,0 +1,2 @@
+default:
+	javac client.java
