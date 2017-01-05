@@ -32,12 +32,10 @@ $(document).ready(function() {
 
     function updateClock() {
         if ((seconds === 0 && minutes === 0) && breakTime === false) {
-            beep();
             minutes = minutesBreak;
             breakTime = true;
             type.html("BREAK");
         } else if ((seconds === 0 && minutes === 0) && breakTime === true) {
-            beep();
             minutes = minutesSession;
             breakTime = false;
             type.html("WORK");
@@ -71,13 +69,8 @@ $(document).ready(function() {
 
     function addMinuteClock() {
         if (started === false) {
-            if (breakTime === false) {
-                minutes++;
-                minutesClass.html(minutes);
-            }
             minutesSession++;
-            sessionLength.html(minutesSession);
-
+            adjustSessionClock();
         } else if (breakTime === true) {
             minutesSession++;
             sessionLength.html(minutesSession);
@@ -85,31 +78,41 @@ $(document).ready(function() {
     }
 
     function minusMinuteClock() {
-        if (minutes > 1 && started === false) {
-            if (breakTime === false) {
-                minutes--;
-                minutesClass.html(minutes);
-            }
-            if (minutesSession > 1) {
-                minutesSession--;
-                sessionLength.html(minutesSession);
-            }
-
+        if (minutesSession > 1 && started === false) {
+            minutesSession--;
+            adjustSessionClock();
         } else if (minutesSession > 1 && breakTime === true) {
             minutesSession--;
             sessionLength.html(minutesSession);
         }
     }
 
+    function adjustSessionClock() {
+        sessionLength.html(minutesSession);
+        if (breakTime === false) {
+            minutes = minutesSession;
+            minutesClass.html(minutes);
+            seconds = 0;
+            secondsClass.html("00");
+        }
+
+    }
+
+    function adjustBreakClock() {
+        breakLength.html(minutesBreak);
+        if (breakTime === true) {
+            minutes = minutesBreak;
+            minutesClass.html(minutes);
+            seconds = 0;
+            secondsClass.html("00");
+        }
+
+    }
+
     function addBreakMinute() {
         if (started === false) {
-            if (breakTime === true) {
-                minutes++;
-                minutesClass.html(minutes);
-            }
             minutesBreak++;
-            breakLength.html(minutesBreak);
-
+            adjustBreakClock();
         } else if (breakTime === false) {
             minutesBreak++;
             breakLength.html(minutesBreak);
@@ -117,15 +120,9 @@ $(document).ready(function() {
     }
 
     function minusBreakMinute() {
-        if (minutes > 1 && started === false) {
-            if (breakTime === true) {
-                minutes--;
-                minutesClass.html(minutes);
-            }
-            if (minutesBreak > 1) {
-                minutesBreak--;
-                breakLength.html(minutesBreak);
-            }
+        if (minutesBreak > 1 && started === false) {
+            minutesBreak--;
+            adjustBreakClock();
         } else if (minutesBreak > 1 && breakTime === false) {
             minutesBreak--;
             breakLength.html(minutesBreak);
