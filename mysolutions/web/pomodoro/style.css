@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Fredoka+One);
+
+h1 {
+  font-size: 400%;
+}
+h1, h2 {
+  text-align: center;
+}
+
+#title {
+  font-family: 'Fredoka One';
+  padding-bottom: 5vh;
+}
+.minutes {
+  display: inline;
+}
+
+.seconds {
+  display: inline;
+}
+
+.center-block {
+  margin: 0 auto;
+  float: none;
+  text-align: center;
+}
+
+#type {
+  font-size: 220%;
+}
+
+#progressBar {
+ 	width: 200px;
+	height: 100px;
+	background: red;
+
+}
