@@ -34,3 +34,36 @@ h1, h2 {
 	height: 100px;
 	background: red;
 }
+
+.length {
+   font-size: 150%; 
+}
+
+.btn {
+   color: #DFDCE3;
+   background-color: #FC4A1A;
+   font-weight: bold;
+   border: solid;
+   border-radius: 5px;
+}
+
+.btn:hover {
+   color: #DFDCE3;
+   background-color: #C92E03;
+   font-weight: bold;
+   border: solid;
+   border-radius: 5px;
+}
+
+.btn:focus {
+   color: #DFDCE3;
+   background-color: #FC4A1A;
+   font-weight: bold;
+   border: solid;
+   border-radius: 5px;
+}
+
+body {
+   background-color: #4ABDAC;
+   color: #DFDCE3;
+}
