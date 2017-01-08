@@ -6,6 +6,14 @@ var tempValue;
 document.addEventListener("DOMContentLoaded", function(event) {
     weatherElement = document.getElementById("weather");
     navigator.geolocation.getCurrentPosition(handlePosition);
+    var celciusButton = document.getElementById("celcius");
+    celciusButton.addEventListener('click', function(){
+       toggleMeasurement('C'); 
+    });
+    var farenheightButton = document.getElementById("farenheight");
+    farenheightButton.addEventListener('click', function(){
+       toggleMeasurement('F'); 
+    });
 });
 
 function handlePosition(pos) {
@@ -37,6 +45,14 @@ function handleApiReturn(responseText) {
     var main = json.main;
     tempValue = new Temp(main.temp);
     weatherElement.innerHTML = tempValue.celciusTemp;
+}
+
+function toggleMeasurement(measurement) {
+    if (measurement === "C") {
+        weatherElement.innerHTML = tempValue.celciusTemp;
+    } else if (measurement === "F") {
+        weatherElement.innerHTML = tempValue.farenheightTemp;
+    }
 }
 
 
