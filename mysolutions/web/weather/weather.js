@@ -37,11 +37,12 @@ function makeApiRequest(url) {
 
 function handleApiReturn(responseText) {
     var json = JSON.parse(responseText);
-    var weather = json.weather;
+    var weather = json.weather[0].main;
     var main = json.main;
     tempValue = new Temp(main.temp);
     weatherElement.innerHTML = tempValue.celciusTemp + " ºC";
     celciusButton.removeAttribute("href");
+    getWeatherImage(weather);
 }
 
 function toggleMeasurement(measurement) {
@@ -74,4 +75,28 @@ function kelvinToFarenheight(kelvin) {
     return kelvin * (9/5) - 459.67;
 }
 
+function getWeatherImage(weather) { //TODO: Finish this method
+    let body = document.getElementsByTagName("body")[0];
+    let backgroundUrl;
+    switch (weather) {
+        case "Clouds":
+            backgroundUrl = "http://www.denverdataman.com/sites/default/files/clouds.jpg";
+            break;
+        case "Thunderstorm":
+            break;
+        case "Drizzle":
+            break;
+        case "Rain":
+            break;
+        case "Snow":
+            break;
+        case "Atmosphere":
+            break;
+        case "Clear":
+            break;
+        case "Extreme":
+            break;
+    }
+    body.style.backgroundImage = "url(" + backgroundUrl +")";
+}
 
