@@ -1,19 +1,15 @@
-var baseUrl = "http://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}";
-var apiKey = "01d7df07b3e64d8a355eaedec50045ad";
-var weatherElement;
-var tempValue;
+const baseUrl = "http://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}";
+const apiKey = "01d7df07b3e64d8a355eaedec50045ad";
+let weatherElement;
+let tempValue;
+let celciusButton;
+let farenheightButton;
 
 document.addEventListener("DOMContentLoaded", function(event) {
     weatherElement = document.getElementById("weather");
     navigator.geolocation.getCurrentPosition(handlePosition);
-    var celciusButton = document.getElementById("celcius");
-    celciusButton.addEventListener('click', function(){
-       toggleMeasurement('C'); 
-    });
-    var farenheightButton = document.getElementById("farenheight");
-    farenheightButton.addEventListener('click', function(){
-       toggleMeasurement('F'); 
-    });
+    celciusButton = document.getElementById("celcius");
+    farenheightButton = document.getElementById("farenheight");
 });
 
 function handlePosition(pos) {
@@ -44,15 +40,23 @@ function handleApiReturn(responseText) {
     var weather = json.weather;
     var main = json.main;
     tempValue = new Temp(main.temp);
-    weatherElement.innerHTML = tempValue.celciusTemp;
+    weatherElement.innerHTML = tempValue.celciusTemp + " ºC";
+    celciusButton.removeAttribute("href");
 }
 
 function toggleMeasurement(measurement) {
     if (measurement === "C") {
-        weatherElement.innerHTML = tempValue.celciusTemp;
+        weatherElement.innerHTML = parseInt(tempValue.celciusTemp) + " ºC";
+        switchButton(farenheightButton, celciusButton);
     } else if (measurement === "F") {
-        weatherElement.innerHTML = tempValue.farenheightTemp;
+        weatherElement.innerHTML = parseInt(tempValue.farenheightTemp) + " ºF";
+        switchButton(celciusButton, farenheightButton);
     }
+}
+
+function switchButton(turnOn, turnOff) {
+    turnOn.setAttribute("href", "#");
+    turnOff.removeAttribute("href");
 }
 
 
