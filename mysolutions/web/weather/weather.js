@@ -75,7 +75,7 @@ function kelvinToFarenheight(kelvin) {
     return kelvin * (9/5) - 459.67;
 }
 
-function getWeatherImage(weather) { //TODO: Finish this method
+function getWeatherImage(weather) { 
     let body = document.getElementsByTagName("body")[0];
     let backgroundUrl = "media/";
     switch (weather) {
