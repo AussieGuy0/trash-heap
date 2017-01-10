@@ -77,24 +77,31 @@ function kelvinToFarenheight(kelvin) {
 
 function getWeatherImage(weather) { //TODO: Finish this method
     let body = document.getElementsByTagName("body")[0];
-    let backgroundUrl;
+    let backgroundUrl = "media/";
     switch (weather) {
         case "Clouds":
-            backgroundUrl = "http://www.denverdataman.com/sites/default/files/clouds.jpg";
+            backgroundUrl += "cloudy.jpg";
             break;
         case "Thunderstorm":
+            backgroundUrl += "thunder.jpg";
             break;
         case "Drizzle":
+            backgroundUrl += "drizzle.jpg";
             break;
         case "Rain":
+            backgroundUrl += "rain.jpg";
             break;
         case "Snow":
+            backgroundUrl += "snow.jpg";
             break;
         case "Atmosphere":
+            backgroundUrl += "fog.jpg";
             break;
         case "Clear":
+            backgroundUrl += "clear.jpg";
             break;
         case "Extreme":
+            backgroundUrl += "extreme.jpg";
             break;
     }
     body.style.backgroundImage = "url(" + backgroundUrl +")";

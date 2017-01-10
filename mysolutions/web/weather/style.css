@@ -1,3 +1,10 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #3B3B3B;
+    font: arial;
+}
+
 html, body, .weather-container {
     height: 100%;
 }
@@ -6,8 +13,6 @@ html, body, .weather-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 15vh;
-    font-style: bold;
 }
 
 .options {
@@ -15,4 +20,14 @@ html, body, .weather-container {
     bottom:0px;
     width:100%;
     text-align: center;
+    font-size: 2vh;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+}
+
+#weather {
+    color: white;
+    font-size: 15vh;
+    text-shadow: 2px 2px black;
 }
