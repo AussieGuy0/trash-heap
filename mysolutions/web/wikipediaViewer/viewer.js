@@ -36,7 +36,7 @@ function handleApiReturn(responseText) {
         let title = titleArr[i];
         let summary = summaryArr[i];
         let url = urlArr[i];
-        resultsDiv.innerHTML += "<p> <a href=\""+ url+ "\"><h2>"+ title + "</h2> </a>" + summary +  "</p>";
+        resultsDiv.innerHTML += "<div> <a href=\""+ url+ "\"><h2>"+ title + "</h2> </a>" + summary +  "</div>";
     }
 }
 

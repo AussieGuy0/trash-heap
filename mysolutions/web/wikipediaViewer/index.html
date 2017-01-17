@@ -15,20 +15,31 @@ crossorigin="anonymous">
     <meta charset="UTF-8">
     <title>Wikipedia Viewer</title>
 
-<!-- UNCOMMENT FOR BOOTSTRAP
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
--->
-    <link rel='stylesheet' href='style.css'>
+    <link rel='stylesheet' href='styles.css'>
   </head>
 
 <body>
-    <p>
-     <input type="text" id="search-box" onkeypress="search(event)">
-     <button id="search-button" onClick="handleSearchButtonClicked()">Search</button>
-     <a href="https://en.wikipedia.org/wiki/Special:Random">Random</a>
-    </p>
-
-    <div id="results">
+  <h1> Wikipedia Viewer </h1>
+  <div class="row">
+    <div class ="input-group col-lg-6 col-lg-offset-3">
+      <input type="text" class="form-control"  id="search-box" onkeypress="search(event)">
+      <span class="input-group-btn">
+        <button type="button" class="btn btn-default" id="search-button" onClick="handleSearchButtonClicked()">
+          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+        </button>
+      </span>
     </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6 col-lg-offset-3">
+      <a href="https://en.wikipedia.org/wiki/Special:Random" id="random-link">Feeling Random?</a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div id="results" class="col-lg-6 col-lg-offset-3">
+    </div>
+  </div>
 </body>
 </html>
