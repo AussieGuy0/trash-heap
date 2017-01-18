@@ -3,8 +3,7 @@ h1 {
     padding-bottom: 20px;
 }
 
-#random-link {
-    text-align: center;
-    float: none;
-    margin: 0 auto;
+#results {
+    opacity: 0.5;    
 }
+

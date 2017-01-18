@@ -2,6 +2,7 @@ let baseUrl = "https://en.wikipedia.org/w/api.php?action=opensearch&format=json&
 let searchButton;
 let searchBox;
 let resultsDiv;
+let interval;
 
 document.addEventListener("DOMContentLoaded", function(event) {
     searchButton = document.getElementById("search-button");
@@ -21,11 +22,12 @@ function makeApiRequest(url) {
     };
     xmlHttp.open("GET", url, true); 
     xmlHttp.setRequestHeader("Api-User-Agent", "Personal/1.0 (anthonybruno.me)");
+    resultsDiv.style.opacity = "0";
+    resultsDiv.innerHTML = "";
     xmlHttp.send(null);
 }
 
 function handleApiReturn(responseText) {
-    resultsDiv.innerHTML = "";
 
     let json = JSON.parse(responseText);
     let titleArr = json[1];
@@ -38,7 +40,23 @@ function handleApiReturn(responseText) {
         let url = urlArr[i];
         resultsDiv.innerHTML += "<div> <a href=\""+ url+ "\"><h2>"+ title + "</h2> </a>" + summary +  "</div>";
     }
+    
+     interval = window.setInterval(fadeIn, 10, resultsDiv);
 }
+
+var opacity = 0.0;
+
+
+var fadeIn = (function(element) {
+    opacity += 0.08;
+    if (opacity >= 1) {
+        opacity = 0;
+        element.style.opacity = "1.0";
+        window.clearInterval(interval);
+    } else {
+        element.style.opacity = opacity;
+    }
+});
 
 function handleSearchButtonClicked() {
     makeApiRequest(baseUrl + searchBox.value);
