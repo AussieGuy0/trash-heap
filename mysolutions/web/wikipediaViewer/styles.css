@@ -1,16 +1,16 @@
 html, body {
     height: 100%;
+    color: #5D4C46;
+    font-size: 105%
 }
 
 h1 {
+    font-weight: bold;
     text-align: center;
     padding-bottom: 20px;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
-.title-wrapper {
-    background: pink;
-    border-style: solid;
-}
 
 body {
     background: #7B8D8E;
@@ -36,4 +36,12 @@ body {
 
 #spinner-div {
     height: 100%;
+}
+
+a {
+   color: #44B3C2; 
+}
+
+#random-link {
+    margin-left: -1.5%;
 }

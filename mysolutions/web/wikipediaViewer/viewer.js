@@ -46,7 +46,7 @@ function handleApiReturn(responseText) {
         let title = titleArr[i];
         let summary = summaryArr[i];
         let url = urlArr[i];
-        resultsDiv.innerHTML += "<div> <div style=\"border-bottom: solid;\"> <a href=\""+ url+ "\"><h2>"+ title + "</h2> </a></div>" + summary +  "</div>";
+        resultsDiv.innerHTML += "<div> <div style=\"border-bottom: solid; border-color: #44B3C2\"> <a href=\""+ url+ "\"><h2>"+ title + "</h2> </a></div>" + summary +  "</div>";
     }
     
     fadeInInterval  = window.setInterval(fadeIn, 10, resultsDiv);
