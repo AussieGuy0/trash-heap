@@ -22,11 +22,24 @@ function makeApiRequest(url) {
 function handleApiReturn(response) {
     let json = JSON.parse(response);
     for (let i = 0; i < json.length; i++) {
-        let element = json[i].stream;
-        if (element != null) {
-            let item = document.createElement('li');
-            item.appendChild(document.createTextNode(element.display_name + " ||| " + element.status));
+        let element = json[i];
+        if (element.stream != null) { //online streamer
+            let url = element.stream.url;
+            let item = createListItem("online: " + element.stream.display_name + " ||| " + element.stream.status, url);
+            streamerList.appendChild(item)
+        } else if (element.display_name != null) { //offline streamer
+            let url = element._links.self;
+            let item = createListItem("offline: " + element.display_name, url);
             streamerList.appendChild(item)
         }
     }
+}
+
+function createListItem(text, url) {
+    let item = document.createElement('li');
+    let link = document.createElement('a');
+    link.appendChild(document.createTextNode(text))
+    link.setAttribute('href', url);
+    item.appendChild(link);
+    return item;
 }
