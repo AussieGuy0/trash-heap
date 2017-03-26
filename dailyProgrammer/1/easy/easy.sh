@@ -6,4 +6,6 @@ read AGE
 echo "What is your Reddit username?"
 read USER
 
-echo "your name is $NAME, you are $AGE years old, and your username is $USER"
+STRING="your name is $NAME, you are $AGE years old, and your username is $USER"
+echo $STRING
+echo $STRING > log.txt
