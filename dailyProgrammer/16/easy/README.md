@@ -1,0 +1,5 @@
+<div class="md"><p>Hi folks! We are in the midst of discussing how this subreddit will go about but for now how about we just concentrate on challenges!</p>
+<p>Write a function that takes two strings and removes from the first string any character that appears in the second string. For instance, if the first string is “Daily Programmer” and the second string is “aeiou ” the result is “DlyPrgrmmr”.<br/>
+note: the second string has [space] so the space between "Daily Programmer" is removed</p>
+<p>edit: if anyone has any suggestions for the subreddit, kindly post it in the feedback thread posted a day before. It will be easier to assess. Thank you.</p>
+</div>

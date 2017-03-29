@@ -1,0 +1,17 @@
+# Pivot Table
+<div class="md"><h1>Description:</h1>
+<p>An interesting way to represent data is a pivot table. If you use spreadsheet programs like Excel you might have seen these before. If not then you are about to enjoy it.</p>
+<p>Say you have data that is related in three parts. We can field this in a table with column and rows and the middle intersection is a related field. For this challenge you will need to make a pivot table for a wind energy farm. These farms of wind mills run several windmills with tower numbers. They generate energy measured in kilowatt hours (kWh).</p>
+<p>You will need to read in raw data from the field computers that collect readings throughout the week. The data is not sorted very well. You will need to display it all in a nice pivot table.</p>
+<p>Top Columns should be the days of the week.
+Side Rows should be the tower numbers and the data in the middle the total kWh hours produced for that tower on that day of the week.</p>
+<h1>input:</h1>
+<p>The challenge input is 1000 lines of the computer logs. You will find it <a href="https://gist.github.com/coderd00d/ca718df8e633285885fa">HERE - gist of it</a></p>
+<p>The log data is in the format:</p>
+<pre><code>(tower #) (day of the week) (kWh)
+</code></pre>
+<h1>output:</h1>
+<p>A nicely formatted pivot table to report to management of the weekly kilowatt hours of the wind farm by day of the week.</p>
+<h1>Code Solutions:</h1>
+<p>I am sure a clever user will simply put the data in Excel and make a pivot table. We are looking for a coded solution. :)</p>
+</div>

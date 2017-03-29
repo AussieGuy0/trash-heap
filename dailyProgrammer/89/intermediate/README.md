@@ -1,0 +1,8 @@
+# (Printing strings in Brainf***)'
+<div class="md"><p><a href="http://www.reddit.com/r/dailyprogrammer/comments/ti5ji/5112012_challenge_51_intermediate/">A while ago</a> we had some fun with the very peculiar <a href="http://en.wikipedia.org/wiki/Brainfuck">Brainfuck programming language</a>, which (despite its limited set of commands and character set) is actually Turing complete, meaning that any computation you can do in any other programming language, you can do in Brainfuck.</p>
+<p>That doesn't make it easy to use, though. Even as simple a task as printing out a string requires quite lengthy code. Today, we will simplify that task quite a bit!</p>
+<p>Your task today is to write a program that takes a string as input and outputs Brainfuck code that, when run, will print out that string. That is, given "Hello World!", it will print out something that looks like <a href="http://en.wikipedia.org/wiki/Brainfuck#Hello_World.21">Wikipedia's example Hello World program</a> (though not necessarily exactly, of course). </p>
+<p>Use your program to create a Brainfuck program that prints out <a href="http://pastebin.com/v8AbQRFv">The Raven</a>, by Edgar Allen Poe.</p>
+<p>Bonus: Try to optimize your program in such a way as to make the brainfuck code as short as possible. <a href="http://pastebin.com/Jdmrf4hM">Here, for instance, is a 34500 character long Brainfuck program that I made</a> which prints out "The Raven". Can you beat me and write a program that generates shorter Brainfuck code? </p>
+<p>Remember, this bonus is optional, even if your generated program is very big, you are still free to submit code. </p>
+</div>

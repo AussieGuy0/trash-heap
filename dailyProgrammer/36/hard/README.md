@@ -1,0 +1,2 @@
+<div class="md"><p>Let's play Lingo!  Click <a href="http://www.youtube.com/watch?feature=player_detailpage&amp;v=HzWh_G0DiGw#t=113s">here</a> for an idea of how the game works.  Now write a program that reads a random 5-letter word from a dictionary file and plays the game Lingo.  If you're doing a text-based version, you can surround the correct letters at the correct location with [] and correct letters at the wrong location with ().</p>
+</div>
