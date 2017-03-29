@@ -7,17 +7,16 @@ parsed = bs4.BeautifulSoup(res.text, "lxml")
 tableBody = parsed.select('table')[1].tbody
 
 for row in tableBody.find_all('tr'):
-    count = 0
-    num = -1
-    difficulty = ""
+    count = 0;
     name = "";
     for td in row.find_all('td'):
         if count == 1: 
             num = td.text
             print("num: " + td.text)
         elif count == 2:
-            diff = td.text;
+            difficulty = td.text;
             print("diff: " + td.text)
+            difficulty = difficulty.replace("/","-") # Need to replace "/" in some difficulty names
         elif count == 3:
             name = td.text
             print("name: " + td.text)
@@ -28,8 +27,11 @@ for row in tableBody.find_all('tr'):
             linkResponse.raise_for_status()
             linkParsed = bs4.BeautifulSoup(linkResponse.text, "lxml")
             postElement = linkParsed.select('.expando')[0].select('div[class="md"]')[0]
+
+            if not os.path.isdir(num):
+                os.mkdir(num)
             
-            dirPath = num + "/" + diff.lower()
+            dirPath = num + "/" + difficulty.lower()
 
             if not os.path.isdir(dirPath):
                 os.mkdir(dirPath)
