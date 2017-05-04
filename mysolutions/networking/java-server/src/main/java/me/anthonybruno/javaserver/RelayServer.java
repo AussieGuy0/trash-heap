@@ -22,10 +22,11 @@ public class RelayServer {
         try {
             serverSocket =  new ServerSocket(portNumber);
 
+            System.out.println("Waiting for connections...");
             Socket clientSocket1 = serverSocket.accept();
-            log.debug("Client 1 connected");
+            System.out.println("Client 1 connected");
             Socket clientSocket2 = serverSocket.accept();
-            log.debug("Client 2 connected");
+            System.out.println("Client 2 connected");
 
             client1 = new RelaySeverRunnable(clientSocket1, clientSocket2);
             client2 = new RelaySeverRunnable(clientSocket2, clientSocket1);

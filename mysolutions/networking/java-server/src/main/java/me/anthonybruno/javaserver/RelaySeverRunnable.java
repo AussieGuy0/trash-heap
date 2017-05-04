@@ -31,8 +31,9 @@ public class RelaySeverRunnable implements Runnable {
             while (true) {
                 if (in.ready()) {
                     String received = in.readLine();
-                    log.debug("Received: " + received);
-                    out.print(received);
+                    System.out.println("Received message from [" + this.clientSocket.getPort() + "]: " + received);
+                    System.out.println("Sending message to [" + this.otherClientSocket.getPort() + "]: " + received);
+                    out.println(received);
                 }
             }
         } catch (IOException e) {
