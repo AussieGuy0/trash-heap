@@ -23,23 +23,34 @@ function handleApiReturn(response) {
     let json = JSON.parse(response);
     for (let i = 0; i < json.length; i++) {
         let element = json[i];
+        let url;
         if (element.stream != null) { //online streamer
-            let url = element.stream.url;
-            let item = createListItem("online: " + element.stream.display_name + " ||| " + element.stream.status, url);
+            url = element.stream.url;
+            let image = element.stream.logo;
+            let item = createStreamerItem("online: " + element.stream.display_name + " ||| " + element.stream.status, url, image);
             streamerList.appendChild(item)
         } else if (element.display_name != null) { //offline streamer
-            let url = element._links.self;
-            let item = createListItem("offline: " + element.display_name, url);
+            url = element._links.self;
+            let item = createStreamerItem("offline: " + element.display_name, url, null);
             streamerList.appendChild(item)
         }
     }
 }
 
-function createListItem(text, url) {
-    let item = document.createElement('li');
+function createStreamerItem(text, url, imageUrl) {
+    let item = document.createElement('div');
+    if (imageUrl) {
+        let imageElement = document.createElement('img');
+        imageElement.classList.add("logo");
+        imageElement.classList.add("img-circle");
+        imageElement.src = imageUrl;
+        item.appendChild(imageElement);
+    }
+
     let link = document.createElement('a');
-    link.appendChild(document.createTextNode(text))
+    link.textContent = text;
     link.setAttribute('href', url);
     item.appendChild(link);
+
     return item;
 }
