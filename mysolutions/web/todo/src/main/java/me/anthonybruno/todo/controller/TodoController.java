@@ -1,6 +1,7 @@
 package me.anthonybruno.todo.controller;
 
 import me.anthonybruno.todo.service.TodoService;
+import me.anthonybruno.todo.transformer.JsonTransformer;
 
 import static spark.Spark.*;
 
@@ -15,10 +16,10 @@ public class TodoController {
 
     private void setupEndpoints() {
         path("/api/todo", () -> {
-            get("", (req, res) -> null);
-            post("", (req, res) -> null);
-            delete("", (req, res) -> null);
-            put("", (req, res) -> null);
+            get("/:id", (req, res) -> null, new JsonTransformer());
+            post("", (req, res) -> null, new JsonTransformer());
+            delete("/:id", (req, res) -> null, new JsonTransformer());
+            put("", (req, res) -> null, new JsonTransformer());
         });
     }
 
