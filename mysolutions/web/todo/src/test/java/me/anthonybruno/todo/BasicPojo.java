@@ -1,4 +1,4 @@
-package me.anthonybruno.todo.transformer;
+package me.anthonybruno.todo;
 
 public class BasicPojo {
 

@@ -1,6 +1,5 @@
 package me.anthonybruno.todo.util;
 
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import spark.Request;
@@ -8,6 +7,10 @@ import spark.Request;
 import java.io.IOException;
 
 public class RequestUtils {
+
+    public static <T> T convertRequestToObject(Class<T> convertingClass, Request req) {
+        return JsonUtils.convertStringToObject(convertingClass, req.body());
+    }
 
     public static boolean hasCorrectKeys(Request req, String... keys) {
         ObjectNode node;
