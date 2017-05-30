@@ -38,6 +38,8 @@ public class TodoController {
                 return todoService.editTodoItem(todoItem.getId(), todoItem);
             }, new JsonTransformer());
         });
+
+        get("/api/todos", (req, res) -> todoService.getAll().toArray(new TodoItem[0]), new JsonTransformer());
     }
 
 

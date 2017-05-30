@@ -2,12 +2,15 @@ package me.anthonybruno.todo.service;
 
 import me.anthonybruno.todo.model.TodoItem;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class TodoService {
 
     private Map<Long, TodoItem> todoDb = new HashMap<>();
+    {
+        todoDb.put(0L, new TodoItem(0, false, "This a todo item", new Date()));
+        todoDb.put(1L, new TodoItem(1,true, "This a another todo item", new Date()));
+    }
 
     public long addTodoItem(TodoItem todoItem) {
         todoDb.put(todoItem.getId(), todoItem);
@@ -27,4 +30,7 @@ public class TodoService {
         return todoDb.remove(id) != null;
     }
 
+    public Collection<TodoItem> getAll() {
+        return todoDb.values();
+    }
 }
