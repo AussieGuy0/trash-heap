@@ -12,7 +12,8 @@ public class TodoService {
         todoDb.put(1L, new TodoItem(1,true, "This a another todo item", new Date()));
     }
 
-    public long addTodoItem(TodoItem todoItem) {
+    public long addTodoItem(String text) {
+        TodoItem todoItem = new TodoItem(generateId(), false, text, new Date());
         todoDb.put(todoItem.getId(), todoItem);
         return todoItem.getId();
     }
@@ -32,5 +33,9 @@ public class TodoService {
 
     public Collection<TodoItem> getAll() {
         return todoDb.values();
+    }
+
+    private long generateId() {
+        return todoDb.size();
     }
 }
