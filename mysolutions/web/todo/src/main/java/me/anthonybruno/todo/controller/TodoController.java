@@ -14,7 +14,6 @@ public class TodoController {
     private final TodoService todoService = new TodoService();
 
     public TodoController() {
-
         setupEndpoints();
     }
 

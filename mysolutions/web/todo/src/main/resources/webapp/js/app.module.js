@@ -1,4 +1,5 @@
 var todoApp = angular.module('todoApp', [
-    'todoList'
+    'todoList',
+    'todoForm'
 ]);
 
