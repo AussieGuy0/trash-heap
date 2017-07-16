@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-<!-- UNCOMMENT FOR JQUERY
-<script
-      src="https://code.jquery.com/jquery-3.1.1.min.js"
-integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-crossorigin="anonymous">
-</script>
--->
 <script src="main.js"></script>
 
 <head>
@@ -19,8 +12,13 @@ crossorigin="anonymous">
 </head>
 
 <body>
-  <div id="container">
+  <div class="container">
      <h1>Twitch Streamers</h1>
+      <ul class="nav nav-tabs">
+          <li class="active"><a href="#" id="show-all-tab">All</a></li>
+          <li><a href="#" id="show-online-tab">Online</a></li>
+          <li><a href="#" id="show-offline-tab">Offline</a></li>
+      </ul>
      <div id="list"></div>
   </div>
 
