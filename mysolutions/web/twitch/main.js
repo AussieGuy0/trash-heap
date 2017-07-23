@@ -10,14 +10,25 @@ document.addEventListener("DOMContentLoaded", function (event) {
     let showAllTab = document.getElementById("show-all-tab");
     showAllTab.onmouseup = function () {
        showAll();
-    }
+       setTabActive(showAllTab);
+    };
     let showOfflineTab = document.getElementById("show-offline-tab");
     showOfflineTab.onmouseup = function () {
-        onlyShowOfflineStreams()
-    }
+        onlyShowOfflineStreams();
+        setTabActive(showOfflineTab);
+    };
     let showOnlineTab = document.getElementById("show-online-tab");
     showOnlineTab.onmouseup = function () {
         onlyShowOnlineStreams();
+        setTabActive(showOnlineTab);
+    };
+
+    function setTabActive(element) {
+        showAllTab.parentNode.classList.remove("active");
+        showOnlineTab.parentNode.classList.remove("active");
+        showOfflineTab.parentNode.classList.remove("active");
+
+        element.parentNode.classList.add("active");
     }
 
 });
@@ -40,13 +51,13 @@ function handleApiReturn(response) {
     for (let i = 0; i < json.length; i++) {
         let element = json[i];
         let url;
-        if (element.stream != null) { //online streamer
+        if (element.stream !== null) { //online streamer
             url = element.stream.url;
             let image = element.stream.logo;
             let item = createStreamerItem("online: " + element.stream.display_name + " ||| " + element.stream.status, url, image);
             item.classList.add(onlineItemClass);
             streamerList.appendChild(item)
-        } else if (element.display_name != null) { //offline streamer
+        } else if (element.display_name !== null) { //offline streamer
             url = element._links.self;
             let item = createStreamerItem("offline: " + element.display_name, url, null);
             item.classList.add(offlineItemClass);
