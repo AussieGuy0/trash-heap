@@ -1,8 +1,8 @@
 package au.com.anthonybruno;
 
-import au.com.anthonybruno.json.JsonElementBodyHandler;
+import au.com.anthonybruno.json.JsonHandlers;
+import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
 import jdk.incubator.http.HttpClient;
 import jdk.incubator.http.HttpRequest;
 import jdk.incubator.http.HttpResponse;
@@ -23,14 +23,14 @@ public class Main {
                 .uri(url)
                 .build();
 
-        HttpResponse<JsonElement> response = httpClient.send(request, new JsonElementBodyHandler());
+        HttpResponse<JsonArray> response = httpClient.send(request, JsonHandlers.asJsonArray());
 
-        for (JsonElement object : response.body().getAsJsonArray()) {
+        for (JsonElement object : response.body()) {
             System.out.println(object);
         }
     }
 
-    public static URI generateUrl(String account) {
+    private static URI generateUrl(String account) {
         try {
             return new URI("https://haveibeenpwned.com/api/v2/breachedaccount/" + account);
         } catch (URISyntaxException e) {
