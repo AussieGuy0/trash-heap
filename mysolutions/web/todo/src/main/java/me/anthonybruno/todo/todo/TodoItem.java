@@ -1,16 +1,42 @@
-package me.anthonybruno.todo.model;
+package me.anthonybruno.todo.todo;
 
+import me.anthonybruno.todo.login.User;
+
+import javax.persistence.*;
 import java.util.Date;
 
+@Entity
+@Table(name = "todo")
 public class TodoItem {
 
+    @Id
+    @GeneratedValue
     private long id;
+
+    @Column
     private boolean done;
+
+    @Column
     private String text;
+
+    @Temporal(TemporalType.TIMESTAMP)
+    @Column
     private Date dateAdded;
+
+    @ManyToOne
+    @JoinColumn(name = "username")
+    private User author;
 
     public TodoItem() {
 
+    }
+
+    public User getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(User author) {
+        this.author = author;
     }
 
     public TodoItem(long id, boolean done, String text, Date dateAdded) {

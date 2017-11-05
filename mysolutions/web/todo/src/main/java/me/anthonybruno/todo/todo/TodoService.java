@@ -1,6 +1,4 @@
-package me.anthonybruno.todo.service;
-
-import me.anthonybruno.todo.model.TodoItem;
+package me.anthonybruno.todo.todo;
 
 import java.util.*;
 

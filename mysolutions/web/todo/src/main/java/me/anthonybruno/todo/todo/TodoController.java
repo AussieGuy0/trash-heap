@@ -1,8 +1,8 @@
-package me.anthonybruno.todo.controller;
+package me.anthonybruno.todo.todo;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import me.anthonybruno.todo.model.TodoItem;
-import me.anthonybruno.todo.service.TodoService;
+import me.anthonybruno.todo.todo.TodoItem;
+import me.anthonybruno.todo.todo.TodoService;
 import me.anthonybruno.todo.transformer.JsonTransformer;
 import me.anthonybruno.todo.util.JsonUtils;
 import me.anthonybruno.todo.util.RequestUtils;
