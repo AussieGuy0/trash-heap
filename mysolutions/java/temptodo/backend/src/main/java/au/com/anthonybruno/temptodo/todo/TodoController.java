@@ -18,4 +18,8 @@ public class TodoController {
     public List<TodoItem> getItems(String listId) {
         return todoRepository.getTodoItems(listId);
     }
+
+    public TodoList createNewTodoList(String id) {
+        return  todoRepository.createNewTodoList(id);
+    }
 }
