@@ -5,6 +5,8 @@ import au.com.anthonybruno.temptodo.todo.TodoItem;
 import au.com.anthonybruno.temptodo.todo.TodoList;
 import au.com.anthonybruno.temptodo.todo.TodoRepository;
 import com.fasterxml.jackson.databind.node.ObjectNode;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
@@ -14,12 +16,16 @@ import static spark.Spark.*;
 
 public class Urls {
 
+    private static final Logger log = LoggerFactory.getLogger("requests");
     public static final String baseUrl = "/api/v1";
 
     private final TodoController todoCtrl = new TodoController(new TodoRepository());
 
     public Urls() {
         path("/api/v1", this::createTodosEndpoints);
+        before(((request, response) -> {
+            log.info("Received {} request to {}", request.requestMethod(), request.pathInfo());
+        }));
     }
 
     private void createTodosEndpoints() {
