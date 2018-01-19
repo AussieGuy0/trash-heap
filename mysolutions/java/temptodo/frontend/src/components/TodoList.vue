@@ -4,16 +4,41 @@
     <div v-for="todo in todos">
       {{todo.text}}
     </div>
+    <button v-on:mouseup="addTodo()">
+      Add Todo
+    </button>
   </div>
 </template>
 
 <script>
+  import TodoService from "../services/TodoService";
+
+  const todoService = new TodoService();
   export default {
     name: 'TodoList',
     data() {
       return {
-        todos: [{text: "test"}, {text: "more"}]
+        todos: [],
+        id: this.$route.params.id
       }
+    },
+    methods: {
+        addTodo: function () {
+          todoService.addTodo(this.id, "Example Todo").then(() => {
+            this.getTodos();
+          });
+        },
+        getTodos: function () {
+          todoService.getTodos(this.id).then((json) => {
+            this.todos = json;
+          });
+        }
+    },
+    created: function () {
+      todoService.getTodos(this.id).then((json) => {
+        this.todos = json;
+      });
+
     }
   }
 </script>
