@@ -27,9 +27,11 @@ Expected request:
     "text": "The dishes"
 }
 ```
-### PUT /api/v1/todos/{id}
-Updates an existing todo item in list with specified id.
-
 ### DELETE /api/v1/todos/{id}
 Deletes the todo list with specified id.
 
+### PUT /api/v1/todos/{listId}/{itemId}
+Updates an existing todo item in list with specified id.
+
+### DELETE /api/v1/todos/{listId}/{itemId}
+Deletes a specified todoitem in list 

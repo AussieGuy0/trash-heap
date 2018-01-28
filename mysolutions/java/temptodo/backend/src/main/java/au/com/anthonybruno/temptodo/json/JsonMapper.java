@@ -3,6 +3,7 @@ package au.com.anthonybruno.temptodo.json;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 
 import java.io.IOException;
 
@@ -27,5 +28,9 @@ public class JsonMapper {
 
     public static <T> T toJsonObject(String data, Class<T> type) {
         return type.cast(toJsonObject(data));
+    }
+
+    public static ObjectNode newObjectNode() {
+        return mapper.createObjectNode();
     }
 }

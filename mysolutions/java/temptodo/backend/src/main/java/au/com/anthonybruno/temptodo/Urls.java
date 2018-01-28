@@ -1,5 +1,6 @@
 package au.com.anthonybruno.temptodo;
 
+import au.com.anthonybruno.temptodo.exception.ResourceNotFoundException;
 import au.com.anthonybruno.temptodo.todo.TodoController;
 import au.com.anthonybruno.temptodo.todo.TodoItem;
 import au.com.anthonybruno.temptodo.todo.TodoList;
@@ -26,6 +27,10 @@ public class Urls {
         before(((request, response) -> {
             log.info("Received {} request to {}", request.requestMethod(), request.pathInfo());
         }));
+        exception(ResourceNotFoundException.class, (exception, request, response) -> {
+            response.body(String.valueOf(exception.toJson()));
+            response.status(exception.getStatusCode());
+        });
     }
 
     private void createTodosEndpoints() {
@@ -46,9 +51,20 @@ public class Urls {
 
                 ObjectNode json = toJsonObject(request.body(), ObjectNode.class);
                 String text = json.get("text").asText();
-                TodoItem todoItem = new TodoItem(text, false);
+                TodoItem todoItem = new TodoItem(1, text, false);
                 return toJsonString(todoCtrl.addItem(id, todoItem));
+            });
 
+            put("/:itemId", (request, response) -> {
+                String id = request.params("id");
+                long itemId = Long.parseLong(request.params("itemId"));
+
+                ObjectNode json = toJsonObject(request.body(), ObjectNode.class);
+                String text = json.get("text").asText();
+                boolean completed = json.get("completed").booleanValue();
+                TodoItem todoItem = new TodoItem(-1, text, completed);
+
+                return toJsonString(todoCtrl.updateTodoItem(id, itemId, todoItem));
             });
         });
     }

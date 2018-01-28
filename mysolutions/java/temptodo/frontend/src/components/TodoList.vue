@@ -2,9 +2,10 @@
   <div>
     <h1>Todo List</h1>
     <div v-for="todo in todos">
-      {{todo.text}}
+      <input type="text" v-model="todo.text" v-on:keyup.enter="saveTodo(todo)">
+      <button>Delete</button>
     </div>
-    <button v-on:mouseup="addTodo()">
+    <button v-on:mouseup="addTodo()" >
       Add Todo
     </button>
   </div>
@@ -32,7 +33,16 @@
           todoService.getTodos(this.id).then((json) => {
             this.todos = json;
           });
-        }
+        },
+        saveTodo: function (todo) {
+          todoService.updateTodo(this.id, todo).then(() => {
+            this.getTodos();
+          })
+
+        },
+      deleteTodo: function () {
+
+      }
     },
     created: function () {
       todoService.getTodos(this.id).then((json) => {

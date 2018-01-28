@@ -1,6 +1,7 @@
 package au.com.anthonybruno.temptodo.todo;
 
 import java.util.List;
+import java.util.Optional;
 
 public class TodoList {
 
@@ -18,5 +19,11 @@ public class TodoList {
 
     public List<TodoItem> getTodoItems() {
         return todoItems;
+    }
+
+    public Optional<TodoItem> getTodoItemById(long id) {
+       return todoItems.stream()
+               .filter(item -> item.getId() == id)
+               .findAny();
     }
 }

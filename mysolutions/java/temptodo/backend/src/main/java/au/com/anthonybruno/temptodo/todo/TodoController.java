@@ -12,7 +12,6 @@ public class TodoController {
 
     public TodoItem addItem(String listId, TodoItem todoItem) {
         return todoRepository.addTodoItemToList(listId, todoItem);
-
     }
 
     public List<TodoItem> getItems(String listId) {
@@ -21,5 +20,9 @@ public class TodoController {
 
     public TodoList createNewTodoList(String id) {
         return  todoRepository.createNewTodoList(id);
+    }
+
+    public TodoItem updateTodoItem(String listId, long todoItemId, TodoItem todoItem) {
+        return todoRepository.updateTodoItem(listId, todoItemId, todoItem);
     }
 }

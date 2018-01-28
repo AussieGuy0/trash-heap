@@ -1,5 +1,7 @@
 package au.com.anthonybruno.temptodo.todo;
 
+import au.com.anthonybruno.temptodo.exception.ResourceNotFoundException;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -11,8 +13,8 @@ public class TodoRepository {
 
     public TodoRepository() {
         List<TodoItem> items = new ArrayList<>();
-        items.add(new TodoItem("Do this task", false));
-        items.add(new TodoItem("And this task",true));
+        items.add(new TodoItem(1,"Do this task", false));
+        items.add(new TodoItem(2,"And this task",true));
         db.put("test", new TodoList("text", items));
     }
 
@@ -23,9 +25,9 @@ public class TodoRepository {
     public TodoItem addTodoItemToList(String listId, TodoItem todoItem) {
         List<TodoItem> items = db.get(listId).getTodoItems();
         if (items != null) {
-            items.add(todoItem);
+            items.add(todoItem); //TODO: Generate id of todoitem
         } else {
-            throw new RuntimeException("No item with" + listId + " found");
+            throw new ResourceNotFoundException("No TodoList with " + listId + " found");
         }
         return todoItem;
     }
@@ -34,5 +36,23 @@ public class TodoRepository {
         TodoList todoList = new TodoList(id, new ArrayList<>());
         db.put(todoList.getId(), todoList);
         return todoList;
+    }
+
+    public TodoItem updateTodoItem(String listId, long todoItemId, TodoItem updatedItem) {
+        TodoList todoList = db.get(listId);
+        if (todoList == null) {
+            throw new ResourceNotFoundException("No TodoList with " + listId + " found");
+        }
+        List<TodoItem> todoItems = todoList.getTodoItems();
+        TodoItem newItem = new TodoItem(todoItemId, updatedItem.getText(), updatedItem.isCompleted());
+        for (int i = 0; i < todoItems.size(); i++) {
+            TodoItem curr = todoItems.get(i);
+            if (curr.getId() ==  todoItemId) {
+                todoItems.remove(i);
+                todoItems.add(newItem);
+            }
+
+        }
+        return newItem;
     }
 }

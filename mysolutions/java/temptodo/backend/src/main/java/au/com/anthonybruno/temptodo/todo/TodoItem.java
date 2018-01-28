@@ -2,12 +2,18 @@ package au.com.anthonybruno.temptodo.todo;
 
 public class TodoItem {
 
-    public final String text;
-    public final boolean completed;
+    private final long id;
+    private final String text;
+    private final boolean completed;
 
-    public TodoItem(String text, boolean completed) {
+    public TodoItem(long id, String text, boolean completed) {
+        this.id = id;
         this.text = text;
         this.completed = completed;
+    }
+
+    public long getId() {
+        return id;
     }
 
     public String getText() {
