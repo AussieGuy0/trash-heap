@@ -1,0 +1,7 @@
+/home/anthony/Documents/dev/repos/Projects/mysolutions/web/todo/src/main/java/me/anthonybruno/todo/model/TodoItem.java
+/home/anthony/Documents/dev/repos/Projects/mysolutions/web/todo/src/main/java/me/anthonybruno/todo/service/TodoService.java
+/home/anthony/Documents/dev/repos/Projects/mysolutions/web/todo/src/main/java/me/anthonybruno/todo/transformer/JsonTransformer.java
+/home/anthony/Documents/dev/repos/Projects/mysolutions/web/todo/src/main/java/me/anthonybruno/todo/Server.java
+/home/anthony/Documents/dev/repos/Projects/mysolutions/web/todo/src/main/java/me/anthonybruno/todo/util/RequestUtils.java
+/home/anthony/Documents/dev/repos/Projects/mysolutions/web/todo/src/main/java/me/anthonybruno/todo/controller/TodoController.java
+/home/anthony/Documents/dev/repos/Projects/mysolutions/web/todo/src/main/java/me/anthonybruno/todo/util/JsonUtils.java

@@ -4,7 +4,7 @@ import re
 
 def test(actual, expected):
     if actual != expected:
-        print("x '" + actual + "' did not equal '" + expected + "'") 
+        print("x '" + actual + "' did not equal '" + expected + "'")
 
 
 def mangle(input):

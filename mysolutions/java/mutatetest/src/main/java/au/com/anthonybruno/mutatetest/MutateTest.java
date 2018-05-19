@@ -8,7 +8,7 @@ public class MutateTest {
     private long testsNum = 1000000000L; //1 billion!
 
     public void runTests() {
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 11; i++) {
             timeTests(() -> mutateWithArrayTest(), "Array");
             timeTests(() -> mutateWithObjectTest(), "Object");
             System.out.println();

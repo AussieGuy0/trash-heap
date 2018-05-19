@@ -17,11 +17,15 @@
       <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
+    <login-form></login-form>
   </div>
 </template>
 
 <script>
+import LoginForm from './LoginForm.vue'
+
 export default {
+  components: {LoginForm},
   name: 'HelloWorld',
   data () {
     return {

@@ -1,4 +1,4 @@
-var app = angular.module('todoApp', []);
+const app = angular.module('todoApp', []);
 app.controller('TodoController', ['$http', function ($http) {
     this.orderProp = "text";
     let self = this;
@@ -17,3 +17,4 @@ app.controller('TodoController', ['$http', function ($http) {
     };
 }]);
 
+app.controller('LoginController')

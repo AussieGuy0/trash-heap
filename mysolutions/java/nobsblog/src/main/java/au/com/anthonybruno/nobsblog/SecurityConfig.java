@@ -9,6 +9,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.web.savedrequest.HttpSessionRequestCache;
 import org.springframework.security.web.savedrequest.NullRequestCache;
 
 @EnableWebSecurity
@@ -24,15 +25,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
-                .authorizeRequests()
-                .anyRequest().authenticated()
-                .and()
                 .requestCache()
-                .requestCache(new NullRequestCache())
+                .requestCache(new HttpSessionRequestCache())
                 .and()
                 .httpBasic()
                 .and()
-                .sessionManagement()
-                .sessionCreationPolicy(SessionCreationPolicy.ALWAYS);
+                .authorizeRequests()
+                .anyRequest().authenticated();
     }
 }

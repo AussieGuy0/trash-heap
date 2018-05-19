@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: me.anthonybruno.todo.util.JsonUtilsTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.034 sec <<< FAILURE! - in me.anthonybruno.todo.util.JsonUtilsTest
+convertBadStringToObject(me.anthonybruno.todo.util.JsonUtilsTest)  Time elapsed: 0.029 sec  <<< ERROR!
+java.lang.IllegalArgumentException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "UUID" (class me.anthonybruno.todo.BasicPojo), not marked as ignorable (4 known properties: "hasCar", "id", "name", "numbers"])
+ at [Source: {"UUID":200,"hasCar":false}; line: 1, column: 12] (through reference chain: me.anthonybruno.todo.BasicPojo["UUID"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:62)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportUnknownProperty(DeserializationContext.java:855)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:1083)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1389)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1367)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:266)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:125)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:3788)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2779)
+	at me.anthonybruno.todo.util.JsonUtils.convertStringToObject(JsonUtils.java:21)
+	at me.anthonybruno.todo.util.JsonUtilsTest.convertBadStringToObject(JsonUtilsTest.java:25)
+

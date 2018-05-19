@@ -6,7 +6,7 @@ const onlineItemClass = "online-item";
 
 document.addEventListener("DOMContentLoaded", function (event) {
     streamerList = document.getElementById("list");
-    makeApiRequest(mockJsonUrl);
+    makeApiRequest(mockJsonUrl, handleApiReturn);
     let showAllTab = document.getElementById("show-all-tab");
     showAllTab.onmouseup = function () {
        showAll();
@@ -35,11 +35,11 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-function makeApiRequest(url) {
+function makeApiRequest(url, callback) {
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.onreadystatechange = function () {
         if (xmlHttp.readyState === 4 && xmlHttp.status === 200) {
-            handleApiReturn(xmlHttp.responseText);
+            callback(xmlHttp.responseText);
         }
     };
     xmlHttp.open("GET", url, true);
@@ -54,19 +54,19 @@ function handleApiReturn(response) {
         if (element.stream !== null) { //online streamer
             url = element.stream.url;
             let image = element.stream.logo;
-            let item = createStreamerItem("online: " + element.stream.display_name + " ||| " + element.stream.status, url, image);
+            let item = createStreamerItem(element.stream.display_name + " ||| " + element.stream.status, true, url, image);
             item.classList.add(onlineItemClass);
             streamerList.appendChild(item)
         } else if (element.display_name !== null) { //offline streamer
             url = element._links.self;
-            let item = createStreamerItem("offline: " + element.display_name, url, null);
+            let item = createStreamerItem(element.display_name, false, url, null);
             item.classList.add(offlineItemClass);
             streamerList.appendChild(item)
         }
     }
 }
 
-function createStreamerItem(text, url, imageUrl) {
+function createStreamerItem(text, isOnline, url, imageUrl) {
     let item = document.createElement('div');
     if (imageUrl) {
         let imageElement = document.createElement('img');
@@ -76,9 +76,21 @@ function createStreamerItem(text, url, imageUrl) {
         item.appendChild(imageElement);
     }
 
+    let onlineTag = document.createElement('span');
+    onlineTag.classList.add("online-tag");
+    if (isOnline) {
+        onlineTag.textContent = "[online]";
+    } else {
+        onlineTag.textContent = "[offline]";
+    }
+
     let link = document.createElement('a');
-    link.textContent = text;
+    let textSpan = document.createElement('span');
+    textSpan.textContent = text;
     link.setAttribute('href', url);
+    link.appendChild(onlineTag);
+    link.appendChild(textSpan);
+
     item.appendChild(link);
 
     return item;
