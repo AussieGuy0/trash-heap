@@ -21,6 +21,7 @@
 </template>
 
 <script>
+import ChatRoom from '@/services/ChatRoom'
 export default {
   name: 'RoomPage',
   data () {
@@ -28,17 +29,18 @@ export default {
     return {
       messages: [{ id: 1, text: 'lol', author: 'steven' }],
       roomId: roomId,
-      chatMessage: ''
+      chatMessage: '',
+      chatRoom: new ChatRoom({})
     }
   },
   methods: {
     sendMessage: function (message) {
-      console.log(message)
+      this.chatRoom.sendMessage(null, message)
     }
   },
   mounted: function () {
     this.$nextTick(() => {
-
+      this.chatRoom.connect(this.roomId)
     })
   }
 }
