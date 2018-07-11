@@ -8,13 +8,13 @@
     </div>
     <div class="chat">
       <div class="history">
-        <div v-for="m in messages" v-bind:key="m.id" class="message">
+        <div v-for="(m,index) in messages" v-bind:key="index" class="message">
           <strong>{{m.author}}: </strong> <span> {{m.text}} </span>
         </div>
        </div>
       <div class="chat-input">
-        <input v-model='chatMessage' v-on:keyup.enter="sendMessage(chatMessage)" type="text">
-        <button :disabled='chatMessage === ""'>Chat</button>
+        <input v-model='chatMessage' v-on:keyup.enter="sendMessage()" type="text">
+        <button :disabled='chatMessage === ""' @click="sendMessage()">Chat</button>
       </div>
     </div>
   </div>
@@ -27,20 +27,31 @@ export default {
   data () {
     const roomId = this.$route.params.roomId
     return {
-      messages: [{ id: 1, text: 'lol', author: 'steven' }],
+      messages: [{ text: 'lol', author: 'steven' }],
       roomId: roomId,
       chatMessage: '',
-      chatRoom: new ChatRoom({})
+      username: null
     }
   },
   methods: {
-    sendMessage: function (message) {
-      this.chatRoom.sendMessage(null, message)
+    sendMessage: function () {
+      this.chatRoom.sendMessage(this.chatMessage)
+      this.chatMessage = ''
     }
   },
   mounted: function () {
+    const self = this;
     this.$nextTick(() => {
-      this.chatRoom.connect(this.roomId)
+      let username;
+      while(username == null) {
+        username = window.prompt("Enter a username")
+      }
+      this.username = username;
+      this.chatRoom = new ChatRoom(this.roomId, username, {
+        messageReceived: function(user, text) {
+          self.messages.push({author: user, text: text})
+        }
+      })
     })
   }
 }
