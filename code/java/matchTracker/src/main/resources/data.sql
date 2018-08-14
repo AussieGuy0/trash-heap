@@ -1,0 +1,1 @@
+INSERT INTO season (id, start, end) VALUES (0, TO_DATE('17/12/2015', 'DD/MM/YYYY'), null);

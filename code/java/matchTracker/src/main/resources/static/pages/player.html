@@ -1,0 +1,19 @@
+<h1>Players</h1>
+
+<h2>All Players</h2>
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+    </tr>
+    <tr ng-repeat="player in playerCtrl.players">
+        <td>{{player.id}}</td>
+        <td>{{player.name}}</td>
+    </tr>
+</table>
+
+<h2>Add Player</h2>
+<form>
+    <input type="text" ng-model="playerCtrl.newPlayer.name"/>
+    <button ng-click="playerCtrl.addPlayer()" ng-disabled="!playerCtrl.newPlayer.name">Add New Player</button>
+</form>

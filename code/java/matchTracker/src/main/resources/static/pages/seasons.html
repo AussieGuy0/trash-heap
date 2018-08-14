@@ -1,0 +1,29 @@
+<h1>Seasons</h1>
+
+<form>
+    <label>
+        <span>Season Select:</span>
+        <select name="seasonSelect"  ng-model="seasonCtrl.selectedSeason" ng-change="seasonCtrl.getMatchesBySeason()">
+            <option ng-repeat="id in seasonCtrl.seasonIds" value="{{id}}">{{id}}</option>
+        </select>
+    </label>
+</form>
+
+<p>Showing matches for season {{seasonCtrl.selectedSeason}}</p>
+
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>Home Team</th>
+        <th>Home Score</th>
+        <th>Away Team</th>
+        <th>Away Score</th>
+    </tr>
+    <tr ng-repeat="match in seasonCtrl.matches">
+        <td>{{match.matchId}}</td>
+        <td>{{match.homeTeam}}</td>
+        <td>{{match.homeScore}}</td>
+        <td>{{match.awayTeam}}</td>
+        <td>{{match.awayScore}}</td>
+    </tr>
+</table>

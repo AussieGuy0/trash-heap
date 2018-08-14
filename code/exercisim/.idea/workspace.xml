@@ -1,0 +1,1942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="083eba9f-01dc-4cf1-b8d8-577a5a6723f0" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/1/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/1/easy/easy.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/1/easy/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/1/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/1/hard/guess.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/1/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/1/intermediate/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/1/intermediate/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/1/intermediate/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/10/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/10/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/10/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/100/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/100/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/100/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/101/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/101/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/101/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/102/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/102/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/102/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/103/all/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/104/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/104/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/104/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/105/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/105/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/106/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/106/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/106/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/107/easy/README.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/107/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/107/easy/solution.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/107/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/107/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/108/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/108/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/109/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/109/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/109/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/11/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/11/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/11/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/110/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/110/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/110/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/111/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/111/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/111/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/112/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/112/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/112/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/113/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/113/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/113/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/114/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/114/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/114/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/115/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/115/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/115/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/116/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/116/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/117/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/117/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/117/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/118/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/118/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/118/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/119/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/119/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/119/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/12/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/12/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/12/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/120/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/120/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/120/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/121/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/121/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/121/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/122/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/122/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/122/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/123/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/123/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/123/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/124/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/124/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/124/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/125/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/125/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/125/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/126/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/126/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/126/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/127/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/127/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/127/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/128/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/128/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/128/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/129/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/129/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/13/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/13/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/13/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/130/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/130/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/130/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/131/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/131/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/132/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/132/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/133/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/133/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/134/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/135/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/135/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/136/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/136/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/137/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/137/intermediate-hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/138/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/138/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/139/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/139/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/14/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/14/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/14/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/140/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/140/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/141/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/142/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/143/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/144/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/145/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/146/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/147/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/148/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/149/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/15/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/15/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/15/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/150/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/151/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/152/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/153/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/153/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/154/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/154/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/154/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/155/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/156/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/156/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/156/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/157/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/157/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/157/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/158/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/158/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/158/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/159/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/159/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/159/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/16/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/16/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/16/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/160/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/160/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/160/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/161/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/161/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/161/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/162/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/162/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/162/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/163/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/163/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/163/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/164/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/164/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/164/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/165/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/165/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/165/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/166/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/166b/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/166b/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/166b/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/167/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/167/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/168/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/168/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/169/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/169/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/169/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/17/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/17/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/17/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/170/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/170/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/170/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/171/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/171/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/171/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/172/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/172/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/173/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/173/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/173/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/174/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/174/extra/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/174/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/174/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/175/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/175/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/175/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/176/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/176/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/177/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/177/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/177/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/178/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/178/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/178/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/179/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/179/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/179/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/18/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/18/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/18/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/180/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/180/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/180/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/181/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/181/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/181/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/182/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/182/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/182/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/183/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/183/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/183/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/184/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/184/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/184/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/185/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/185/intermediate-hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/185/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/186/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/186/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/186/special/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/187/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/187/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/187/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/188/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/188/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/188/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/189/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/189/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/189/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/19/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/19/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/19/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/190/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/190/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/190/practical exercise/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/191/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/191/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/191/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/192/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/192/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/192/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/193/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/193/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/194/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/195/all/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/195/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/195/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/196/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/196/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/196/practical exercise/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/197/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/197/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/197/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/198/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/198/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/198/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/199/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/199/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/2/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/2/easy/calc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/2/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/2/hard/stopwatch.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/2/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/20/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/20/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/20/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/200/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/200/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/200/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/201/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/201/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/201/practical exercise/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/202/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/202/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/203/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/203/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/204/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/204/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/204/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/205/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/205/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/205/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/206/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/206/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/206/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/207/bonus/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/207/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/207/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/207/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/208/bonus/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/208/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/208/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/208/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/209/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/209/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/209/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/21/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/21/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/21/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/210/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/210/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/210/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/211/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/211/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/211/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/212/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/212/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/212/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/213/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/213/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/213/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/214/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/214/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/214/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/215/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/215/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/215/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/216/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/216/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/216/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/217/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/217/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/217/practical exercise/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/218/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/218/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/218/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/219/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/219/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/22/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/22/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/22/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/220/easy/README.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/220/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/220/easy/solution.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/220/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/220/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/221/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/221/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/221/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/222/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/222/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/222/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/223/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/223/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/223/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/224/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/224/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/224/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/225/easy-intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/225/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/226/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/226/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/226/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/227/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/227/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/227/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/228/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/228/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/228/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/229/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/229/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/229/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/23/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/23/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/23/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/230/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/230/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/230/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/231/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/231/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/232/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/232/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/232/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/233/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/233/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/234/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/234/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/234/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/235/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/235/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/235/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/236/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/236/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/236/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/237/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/237/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/237/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/238/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/238/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/238/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/239/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/239/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/239/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/24/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/240/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/240/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/240/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/241/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/241/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/241/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/242/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/242/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/242/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/243/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/243/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/243/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/244/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/244/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/245/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/245/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/245/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/246/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/246/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/247/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/247/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/247/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/248/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/248/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/248/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/249/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/249/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/249/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/25/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/25/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/25/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/250/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/250/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/250/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/251/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/251/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/252/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/252/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/253/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/253/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/253/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/254/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/254/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/254/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/255/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/255/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/255/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/256/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/256/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/256/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/257/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/257/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/257/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/258/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/258/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/258/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/259/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/259/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/259/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/26/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/26/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/26/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/260/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/260/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/260/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/261/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/261/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/261/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/262/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/262/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/262/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/263/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/263/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/263/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/264/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/264/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/264/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/265/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/265/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/266/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/266/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/266/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/267/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/267/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/267/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/268/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/268/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/268/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/269/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/269/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/27/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/27/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/27/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/270/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/270/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/270/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/271/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/271/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/271/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/272/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/272/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/272/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/273/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/273/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/273/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/274/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/274/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/274/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/275/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/275/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/275/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/276/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/276/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/276/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/277/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/277/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/277/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/278/easy-intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/279/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/279/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/28/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/28/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/28/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/280/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/280/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/280/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/281/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/281/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/281/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/282/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/282/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/282/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/283/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/283/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/284/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/284/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/284/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/285/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/285/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/285/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/286/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/286/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/286/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/287/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/287/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/287/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/288/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/288/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/288/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/289/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/289/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/289/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/29/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/29/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/29/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/290/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/290/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/290/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/291/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/3/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/3/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/3/hard/scrambled.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/3/hard/unscrambled.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/3/hard/unscrambler.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/3/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/30/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/30/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/30/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/31/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/31/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/31/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/32/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/32/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/32/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/33/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/33/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/33/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/34/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/34/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/34/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/35/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/35/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/35/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/36/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/36/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/36/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/37/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/37/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/37/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/38/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/38/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/38/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/39/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/39/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/39/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/4/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/4/easy/generator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/4/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/4/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/40/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/40/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/40/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/41/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/41/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/41/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/42/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/42/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/42/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/43/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/43/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/43/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/44/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/44/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/44/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/45/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/45/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/45/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/46/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/46/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/46/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/47/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/47/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/47/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/48/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/48/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/48/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/49/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/49/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/49/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/5/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/5/easy/credentials.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/5/easy/password.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/5/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/5/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/50/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/50/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/50/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/51/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/51/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/51/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/52/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/52/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/52/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/53/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/53/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/53/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/54/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/54/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/54/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/55/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/55/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/55/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/56/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/56/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/56/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/57/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/57/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/57/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/58/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/58/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/58/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/59/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/59/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/59/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/6/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/6/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/6/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/60/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/60/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/60/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/61/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/61/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/61/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/62/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/62/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/62/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/63/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/63/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/64/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/64/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/64/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/65/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/65/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/65/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/66/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/66/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/66/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/67/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/67/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/67/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/68/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/68/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/68/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/69/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/69/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/69/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/7/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/7/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/7/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/70/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/70/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/70/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/71/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/71/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/71/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/72/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/72/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/72/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/73/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/73/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/73/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/74/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/74/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/74/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/75/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/75/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/75/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/76/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/76/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/76/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/77/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/77/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/77/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/78/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/78/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/78/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/79/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/79/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/79/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/8/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/8/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/8/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/80/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/80/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/80/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/81/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/81/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/81/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/82/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/82/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/82/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/83/easy/README.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/83/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/83/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/83/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/84/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/84/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/84/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/85/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/85/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/85/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/86/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/86/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/86/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/87/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/87/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/87/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/88/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/88/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/88/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/89/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/89/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/89/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/9/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/9/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/9/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/90/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/90/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/90/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/91/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/91/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/91/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/92/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/92/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/92/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/93/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/93/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/93/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/94/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/94/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/94/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/95/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/95/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/95/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/96/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/96/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/96/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/97/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/97/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/97/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/98/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/98/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/98/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/99/easy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/99/hard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/99/intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dailyProgrammer/scraper.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/algorthims/QuicksortIterative.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/algorthims/QuicksortRecursive.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/java9/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/java9/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/java9/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/java9/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/java9/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/java9/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/java9/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/java9/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/java9/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/java9/java9.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/java9/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/java9/src/main/java/au/com/anthonybruno/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/java9/src/main/java/au/com/anthonybruno/json/JsonArrayBodyHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/java9/src/main/java/au/com/anthonybruno/json/JsonArrayBodyProcessor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/java9/src/main/java/au/com/anthonybruno/json/JsonBodyProcessor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/java9/src/main/java/au/com/anthonybruno/json/JsonElementBodyHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/java9/src/main/java/au/com/anthonybruno/json/JsonElementBodyProcessor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/java9/src/main/java/au/com/anthonybruno/json/JsonHandlers.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/java9/src/main/java/module-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/maze/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/maze/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/maze/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/maze/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/maze/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/maze/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/maze/maze.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/maze/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/maze/src/main/java/au/com/anthonybruno/maze/Maze.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/maze/src/main/java/au/com/anthonybruno/maze/MazeSerializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/maze/src/main/java/au/com/anthonybruno/maze/Player.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/maze/src/main/java/au/com/anthonybruno/maze/PlayerController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/maze/src/main/java/au/com/anthonybruno/maze/Position.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/maze/src/main/java/au/com/anthonybruno/maze/square/EmptySquare.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/maze/src/main/java/au/com/anthonybruno/maze/square/Square.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/maze/src/main/java/au/com/anthonybruno/maze/square/Wall.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/maze/src/main/resources/maze.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/mutatetest/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/mutatetest/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/mutatetest/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/mutatetest/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/mutatetest/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/mutatetest/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/mutatetest/mutatetest.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/mutatetest/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/mutatetest/src/main/java/au/com/anthonybruno/mutatetest/MutateTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/.babelrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/.eslintignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/.eslintrc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/.postcssrc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/config/dev.env.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/config/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/config/prod.env.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/config/test.env.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/package-lock.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/src/App.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/src/assets/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/src/components/HelloWorld.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/src/components/LoginForm.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/src/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/src/router/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/static/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/test/unit/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/test/unit/jest.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/test/unit/setup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/frontend/test/unit/specs/HelloWorld.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/mvnw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/mvnw.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/src/main/java/au/com/anthonybruno/nobsblog/NobsblogApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/src/main/java/au/com/anthonybruno/nobsblog/SecurityConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/src/main/java/au/com/anthonybruno/nobsblog/article/Article.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/src/main/java/au/com/anthonybruno/nobsblog/article/ArticleController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/src/main/java/au/com/anthonybruno/nobsblog/article/ArticleRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/src/main/java/au/com/anthonybruno/nobsblog/article/ArticleService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/src/main/java/au/com/anthonybruno/nobsblog/authentication/AuthUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/src/main/java/au/com/anthonybruno/nobsblog/authentication/AuthenticationController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/src/main/resources/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/nobsblog/src/test/java/au/com/anthonybruno/nobsblog/NobsblogApplicationTests.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/libraries/Maven__com_sparkjava_spark_core_2_7_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_6_v20170531.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_6_v20170531.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_6_v20170531.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_6_v20170531.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_6_v20170531.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_6_v20170531.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_6_v20170531.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_6_v20170531.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_6_v20170531.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_6_v20170531.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_6_v20170531.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_6_v20170531.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_4_6_v20170531.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_4_6_v20170531.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/backend/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/backend/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/backend/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/backend/src/main/java/au/com/anthonybruno/temptodo/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/backend/src/main/java/au/com/anthonybruno/temptodo/Server.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/backend/src/main/java/au/com/anthonybruno/temptodo/Urls.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/backend/src/main/java/au/com/anthonybruno/temptodo/exception/HttpException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/backend/src/main/java/au/com/anthonybruno/temptodo/exception/ResourceNotFoundException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/backend/src/main/java/au/com/anthonybruno/temptodo/json/JsonMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/backend/src/main/java/au/com/anthonybruno/temptodo/todo/TodoController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/backend/src/main/java/au/com/anthonybruno/temptodo/todo/TodoItem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/backend/src/main/java/au/com/anthonybruno/temptodo/todo/TodoList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/backend/src/main/java/au/com/anthonybruno/temptodo/todo/TodoRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/backend/src/main/resources/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/backend/target/classes/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/backend/temp-todo.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/.babelrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/.postcssrc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/config/dev.env.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/config/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/config/prod.env.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/config/test.env.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/frontend.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/package-lock.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/src/App.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/src/assets/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/src/components/HomePage.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/src/components/TodoList.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/src/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/src/router/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/src/services/TodoService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/static/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/test/unit/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/test/unit/jest.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/test/unit/setup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/temptodo/frontend/test/unit/specs/HelloWorld.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/turing-machine-kotlin/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/turing-machine-kotlin/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/turing-machine-kotlin/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/turing-machine-kotlin/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/turing-machine-kotlin/src/main/kotlin/au/com/anthonybruno/turing/Direction.kt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/turing-machine-kotlin/src/main/kotlin/au/com/anthonybruno/turing/Procedure.kt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/turing-machine-kotlin/src/main/kotlin/au/com/anthonybruno/turing/Tape.kt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/turing-machine-kotlin/src/main/kotlin/au/com/anthonybruno/turing/Transition.kt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/turing-machine-kotlin/src/main/kotlin/au/com/anthonybruno/turing/TuringMachine.kt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/java/turing-machine-kotlin/src/test/kotlin/au/com/anthonybruno/turing/TuringMachineTest.kt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/networking/java-client/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/networking/java-client/client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/networking/java-client/makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/networking/java-server/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/networking/java-server/src/main/java/me/anthonybruno/javaserver/RelayServer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/networking/java-server/src/main/java/me/anthonybruno/javaserver/RelaySeverRunnable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/networking/java-server/src/main/resources/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/numbers/ChangeReturn.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/numbers/Fibonacci.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/numbers/FindPi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/numbers/coinFlipSim.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/text/CountVowels.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/text/FizzBuzz.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/text/Palindrone.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/text/ReverseString.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/bigsing/DataFiles/artists.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/bigsing/DataFiles/passwords.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/bigsing/DataFiles/performances.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/bigsing/DataFiles/userinfomation.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/bigsing/DataFiles/venues.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/bigsing/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/bigsing/artists.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/bigsing/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/bigsing/login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/bigsing/main.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/bigsing/performances.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/bigsing/signup.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/bigsing/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/bigsing/userpage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/bigsing/venues.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/pomodoro/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/pomodoro/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/pomodoro/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/pomodoro/timer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/backend/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/backend/logger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/backend/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/backend/rooms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/.babelrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/.eslintignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/.eslintrc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/.postcssrc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/config/dev.env.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/config/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/config/prod.env.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/config/test.env.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/src/App.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/src/assets/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/src/components/HomePage.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/src/components/RoomPage.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/src/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/src/router/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/src/services/ChatRoom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/static/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/static/global.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/test/unit/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/test/unit/jest.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/test/unit/setup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/tempChat/frontend/test/unit/specs/HelloWorld.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__com_fasterxml_classmate_1_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__com_h2database_h2_1_4_196.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__com_sparkjava_spark_core_2_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_4_v20170414.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_4_v20170414.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_4_v20170414.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_4_v20170414.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_4_v20170414.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_4_v20170414.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_4_v20170414.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_4_v20170414.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_4_v20170414.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_4_v20170414.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_4_v20170414.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_4_v20170414.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_4_4_v20170414.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_4_4_v20170414.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_12_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_1_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/sqldialects.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/src/main/java/me/anthonybruno/todo/Server.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/src/main/java/me/anthonybruno/todo/login/LoginController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/src/main/java/me/anthonybruno/todo/login/LoginService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/src/main/java/me/anthonybruno/todo/login/User.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/src/main/java/me/anthonybruno/todo/todo/TodoController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/src/main/java/me/anthonybruno/todo/todo/TodoItem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/src/main/java/me/anthonybruno/todo/todo/TodoService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/src/main/java/me/anthonybruno/todo/transformer/JsonTransformer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/src/main/java/me/anthonybruno/todo/util/JsonUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/src/main/java/me/anthonybruno/todo/util/RequestUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/src/main/resources/hibernate.cfg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/src/main/resources/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/src/main/resources/sql/db.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/src/main/resources/webapp/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/src/main/resources/webapp/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/src/main/resources/webapp/js/app.module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/src/main/resources/webapp/libs/angular-route.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/src/main/resources/webapp/libs/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/src/test/java/me/anthonybruno/todo/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/src/test/java/me/anthonybruno/todo/BasicPojo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/src/test/java/me/anthonybruno/todo/transformer/JsonTransformerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/src/test/java/me/anthonybruno/todo/util/JsonUtilsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/target/classes/hibernate.cfg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/target/classes/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/target/classes/sql/db.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/target/classes/webapp/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/target/classes/webapp/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/target/classes/webapp/js/app.module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/target/classes/webapp/libs/angular-route.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/target/classes/webapp/libs/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/target/surefire-reports/TEST-me.anthonybruno.todo.transformer.JsonTransformerTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/target/surefire-reports/TEST-me.anthonybruno.todo.util.JsonUtilsTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/target/surefire-reports/me.anthonybruno.todo.transformer.JsonTransformerTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/target/surefire-reports/me.anthonybruno.todo.util.JsonUtilsTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/todo/todo.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/twitch/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/twitch/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/twitch/.idea/twitch.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/twitch/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/twitch/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/twitch/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/twitch/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/twitch/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/weather/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/weather/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/weather/media/clear.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/weather/media/cloudy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/weather/media/drizzle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/weather/media/extreme.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/weather/media/fog.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/weather/media/rain.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/weather/media/snow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/weather/media/thunder.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/weather/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/weather/weather.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/wikipediaViewer/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/wikipediaViewer/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../mysolutions/web/wikipediaViewer/viewer.js" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/java/hello-world/.gradle/" />
+    <ignored path="$PROJECT_DIR$/java/hello-world/build/" />
+    <ignored path="$PROJECT_DIR$/java/hello-world/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/java/hello-world">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/java/hello-world">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hello-world" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hello-world" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hello-world" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hello-world" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hello-world" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hello-world" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="ide" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hello-world" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="GreeterTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/hello-world/src/test/java/GreeterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/hello-world/src/test/test.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Greeter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/hello-world/src/main/java/Greeter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/hello-world/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$/java/hello-world" value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$/java/hello-world" value="3.5" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="hello-world" />
+              <option name="path" value="$PROJECT_DIR$/java/hello-world" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="hello-world" />
+                <option name="path" value="$PROJECT_DIR$/java/hello-world" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$/java/hello-world">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'hello-world'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="cleanEclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'hello-world'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Cleans all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="cleanEclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'hello-world'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'hello-world'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="cleanEclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse classpath file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="eclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'hello-world'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'hello-world'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="cleanEclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'hello-world'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'hello-world'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="eclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse JDT settings file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="eclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse project file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="eclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'hello-world'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/java/hello-world" value="1534157724000" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$/java/hello-world">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$/java/hello-world">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/java/hello-world" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="hello-world" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/gradle-docs-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/gradle-installation-beacon-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/ant-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/gradle-script-kotlin-0.8.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/gradle-open-api-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/gradle-version-info-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/gradle-launcher-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/gradle-cli-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/gradle-wrapper-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/gradle-model-core-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/gradle-logging-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/gradle-base-services-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/gradle-base-services-groovy-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/gradle-resources-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/gradle-model-groovy-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/gradle-ui-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/gradle-jvm-services-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/groovy-all-2.4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/gradle-native-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/gradle-process-services-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/gradle-tooling-api-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/ant-launcher-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/gradle-core-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/gradle-messaging-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/gradle-runtime-api-info-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-dependency-management-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-platform-play-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-language-native-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-language-java-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-build-comparison-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-plugins-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-platform-native-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-workers-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-plugin-use-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-jacoco-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-tooling-api-builders-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-javascript-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-reporting-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-ide-native-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-build-init-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-antlr-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-language-jvm-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-ivy-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-resources-http-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-ear-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-scala-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-jetty-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-resources-s3-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-plugin-development-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-language-groovy-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-testing-base-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-resources-sftp-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-test-kit-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-announce-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-ide-play-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-composite-builds-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-osgi-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-platform-base-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-diagnostics-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-code-quality-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-maven-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-language-scala-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-ide-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-testing-native-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-platform-jvm-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-signing-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-testing-jvm-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-build-cache-http-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/plugins/gradle-publish-3.5.jar" />
+                  <option value="$PROJECT_DIR$/java/hello-world/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/java/hello-world/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/java/hello-world/src/main/java/Greeter.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="exercisim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercisim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercisim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercisim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercisim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercisim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/java/hello-world" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.test">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="build" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="hello-world" />
+      <setting name="path" value="file://$PROJECT_DIR$/java/hello-world/build.gradle" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/java/hello-world" />
+      <setting name="debug" value="false" />
+    </configuration>
+    <configuration name="test" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/hello-world" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Gradle.test" />
+      <item index="1" class="java.lang.String" itemvalue="Groovy.build" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Groovy.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="083eba9f-01dc-4cf1-b8d8-577a5a6723f0" name="Default" comment="" />
+      <created>1534159557750</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534159557750</updated>
+      <workItem from="1534159561759" duration="793000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="test - 2018.08.13 at 21h 02m 05s.xml">
+      <configuration name="test" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="test - 2018.08.13 at 21h 02m 25s.xml">
+      <configuration name="test" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="test - 2018.08.13 at 21h 02m 42s.xml">
+      <configuration name="test" configurationId="GradleRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="793000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="3" width="1602" height="898" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24967907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/java/hello-world/src/test/test.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/hello-world/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/hello-world/src/test/java/GreeterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/hello-world/src/main/java/Greeter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
