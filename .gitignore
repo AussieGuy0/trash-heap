@@ -42,3 +42,6 @@ nosetests.xml
 
 # Class files
 *.class
+
+# node
+node_modules/
