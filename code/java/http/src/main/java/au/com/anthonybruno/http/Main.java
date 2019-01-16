@@ -30,8 +30,9 @@ public class Main {
       // 4. Then we actually connect! Note: connect doesn't return anything, it
       //    mutates the connection object!
       connection.connect();
-      if (connection.getResponseCode() != 200) {
-         throw new RuntimeException("Got non 200 response code! " + connection.getResponseCode());
+      int statusCode = connection.getResponseCode();
+      if (statusCode != 200) {
+         throw new RuntimeException("Got non 200 response code! " + statusCode);
       }
 
       // 5. Content is returned in an InputStream (Don't forget to close it!)
@@ -69,8 +70,9 @@ public class Main {
       //    Note: HttpResponse.BodyHandlers.ofString() just parses the response body
       //          as a String
       HttpResponse<String> response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
-      if (response.statusCode() != 200) {
-         throw new RuntimeException("Got non 200 response code! " + response.statusCode());
+      int statusCode = response.statusCode();
+      if (statusCode != 200) {
+         throw new RuntimeException("Got non 200 response code! " + statusCode);
       }
       Instant timestamp = processIntoInstant(response.body());
 
