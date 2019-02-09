@@ -1,4 +1,4 @@
-[<article class="day-desc"><h2>--- Day 6: Chronal Coordinates ---</h2><p>The device on your wrist beeps several times, and once again you feel like you're falling.</p>
+<article class="day-desc"><h2>--- Day 6: Chronal Coordinates ---</h2><p>The device on your wrist beeps several times, and once again you feel like you're falling.</p>
 <p>"<span title="Why is the situation always critical? Why can't the situation just be boring for once?">Situation critical</span>," the device announces. "Destination indeterminate. Chronal interference detected. Please specify new target coordinates."</p>
 <p>The device then produces a list of coordinates (your puzzle input). Are they places it thinks are safe or dangerous? It recommends you check manual page 729. The Elves did not give you a manual.</p>
 <p><em>If they're dangerous,</em> maybe you can minimize the danger by finding the coordinate that gives the largest distance from the other points.</p>
@@ -38,4 +38,4 @@ bbb.ffff<em>F</em>f
 <p>Locations shown as <code>.</code> are equally far from two or more coordinates, and so they don't count as being closest to any.</p>
 <p>In this example, the areas of coordinates A, B, C, and F are infinite - while not shown here, their areas extend forever outside the visible grid. However, the areas of coordinates D and E are finite: D is closest to 9 locations, and E is closest to 17 (both including the coordinate's location itself).  Therefore, in this example, the size of the largest area is <em>17</em>.</p>
 <p><em>What is the size of the largest area</em> that isn't infinite?</p>
-</article>]
+</article>

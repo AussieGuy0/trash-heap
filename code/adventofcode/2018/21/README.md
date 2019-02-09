@@ -1,4 +1,4 @@
-[<article class="day-desc"><h2>--- Day 21: Chronal Conversion ---</h2><p>You should have been watching where you were going, because as you wander the new North Pole base, you trip and fall into a very deep hole!</p>
+<article class="day-desc"><h2>--- Day 21: Chronal Conversion ---</h2><p>You should have been watching where you were going, because as you wander the new North Pole base, you trip and fall into a very deep hole!</p>
 <p><span title="The old time travel hole gag! Classic.">Just kidding.</span>  You're falling through time again.</p>
 <p>If you keep up your current pace, you should have resolved all of the temporal anomalies by the next time the device activates. Since you have very little interest in browsing history in 500-year increments for the rest of your life, you need to find a way to get back to your present time.</p>
 <p>After a little research, you discover two important facts about the behavior of the device:</p>
@@ -9,4 +9,4 @@
 <p>Your goal is to figure out how the program works and cause it to halt.  You can only control <em>register <code>0</code></em>; every other register begins at <code>0</code> as usual.</p>
 <p>Because time travel is a dangerous activity, the activation system begins with a few instructions which verify that <em>bitwise AND</em> (via <code>bani</code>) does a <em>numeric</em> operation and <em>not</em> an operation as if the inputs were interpreted as strings. If the test fails, it enters an infinite loop re-running the test instead of allowing the program to execute normally.  If the test passes, the program continues, and assumes that <em>all other bitwise operations</em> (<code>banr</code>, <code>bori</code>, and <code>borr</code>) also interpret their inputs as <em>numbers</em>. (Clearly, the Elves who wrote this system were worried that someone might introduce a bug while trying to emulate this system with a scripting language.)</p>
 <p><em>What is the lowest non-negative integer value for register <code>0</code> that causes the program to halt after executing the fewest instructions?</em> (Executing the same instruction multiple times counts as multiple instructions executed.)</p>
-</article>]
+</article>

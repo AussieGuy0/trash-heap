@@ -1,4 +1,4 @@
-[<article class="day-desc"><h2>--- Day 2: Inventory Management System ---</h2><p>You stop falling through time, catch your breath, and check the screen on the device. "Destination reached. Current Year: 1518. Current Location: North Pole Utility Closet 83N10." You made it! Now, to find those anomalies.</p>
+<article class="day-desc"><h2>--- Day 2: Inventory Management System ---</h2><p>You stop falling through time, catch your breath, and check the screen on the device. "Destination reached. Current Year: 1518. Current Location: North Pole Utility Closet 83N10." You made it! Now, to find those anomalies.</p>
 <p>Outside the utility closet, you hear footsteps and a voice. "...I'm not sure either. But now that <span title="This is, in fact, roughly when chimneys became common in houses.">so many people have chimneys</span>, maybe he could sneak in that way?" Another voice responds, "Actually, we've been working on a new kind of <em>suit</em> that would let him fit through tight spaces like that. But, I heard that a few days ago, they lost the prototype fabric, the design plans, everything! Nobody on the team can even seem to remember important details of the project!"</p>
 <p>"Wouldn't they have had enough fabric to fill several boxes in the warehouse? They'd be stored together, so the box IDs should be similar. Too bad it would take forever to search the warehouse for <em>two similar box IDs</em>..." They walk too far away to hear any more.</p>
 <p>Late at night, you sneak to the warehouse - who knows what kinds of paradoxes you could cause if you were discovered - and use your fancy wrist device to quickly scan every box and produce a list of the likely candidates (your puzzle input).</p>
@@ -15,4 +15,4 @@
 </ul>
 <p>Of these box IDs, four of them contain a letter which appears exactly twice, and three of them contain a letter which appears exactly three times. Multiplying these together produces a checksum of <code>4 * 3 = 12</code>.</p>
 <p><em>What is the checksum</em> for your list of box IDs?</p>
-</article>]
+</article>

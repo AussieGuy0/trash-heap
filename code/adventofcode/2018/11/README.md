@@ -1,4 +1,4 @@
-[<article class="day-desc"><h2>--- Day 11: Chronal Charge ---</h2><p>You watch the Elves and their sleigh fade into the distance as they head toward the North Pole.</p>
+<article class="day-desc"><h2>--- Day 11: Chronal Charge ---</h2><p>You watch the Elves and their sleigh fade into the distance as they head toward the North Pole.</p>
 <p>Actually, you're the one fading. The <span title="wheeeeeeeeeeeeeeeeee">falling sensation</span> returns.</p>
 <p>The low fuel warning light is illuminated on your wrist-mounted device. Tapping it once causes it to project a hologram of the situation: a <em>300x300</em> grid of fuel cells and their current power levels, some negative. You're not sure what negative power means in the context of time travel, but it can't be good.</p>
 <p>Each fuel cell has a coordinate ranging <em>from 1 to 300</em> in both the X (horizontal) and Y (vertical) direction.  In <code>X,Y</code> notation, the top-left cell is <code>1,1</code>, and the top-right cell is <code>300,1</code>.</p>
@@ -44,4 +44,4 @@
  3   3   3  -5  -1
 </code></pre>
 <p><em>What is the <code>X,Y</code> coordinate of the top-left fuel cell of the 3x3 square with the largest total power?</em></p>
-</article>]
+</article>

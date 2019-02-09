@@ -1,4 +1,4 @@
-[<article class="day-desc"><h2>--- Day 19: Go With The Flow ---</h2><p>With the Elves well on their way constructing the North Pole base, you turn your attention back to understanding the inner workings of programming the device.</p>
+<article class="day-desc"><h2>--- Day 19: Go With The Flow ---</h2><p>With the Elves well on their way constructing the North Pole base, you turn your attention back to understanding the inner workings of programming the device.</p>
 <p>You can't help but notice that the <a href="16">device's opcodes</a> don't contain any <em>flow control</em> like jump instructions. The device's <a href="16">manual</a> goes on to explain:</p>
 <p>"In programs where flow control is required, the <a href="https://en.wikipedia.org/wiki/Program_counter">instruction pointer</a> can be <em>bound to a register</em> so that it can be manipulated directly. This way, <code>setr</code>/<code>seti</code> can function as absolute jumps, <code>addr</code>/<code>addi</code> can function as relative jumps, and other opcodes can cause <span title="Good luck maintaining a program that uses a bitwise operation on its instruction pointer, though.">truly fascinating</span> effects."</p>
 <p>This mechanism is achieved through a declaration like <code>#ip 1</code>, which would modify register <code>1</code> so that accesses to it let the program indirectly access the instruction pointer itself. To compensate for this kind of binding, there are now <em>six</em> registers (numbered <code>0</code> through <code>5</code>); the five not bound to the instruction pointer behave as normal. Otherwise, the same rules apply as <a href="16">the last time you worked with this device</a>.</p>
@@ -32,4 +32,4 @@ ip=6 [6, 5, 6, 0, 0, 0] seti 9 0 5 [6, 5, 6, 0, 0, 9]
 <li>The instruction pointer is <code>6</code>, so the instruction <code>seti 9 0 5</code> stores <code>9</code> into register <code>5</code>. The instruction pointer is incremented, causing it to point outside the program, and so the program ends.</li>
 </ul>
 <p><em>What value is left in register <code>0</code></em> when the background process halts?</p>
-</article>]
+</article>

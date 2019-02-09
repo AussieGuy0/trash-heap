@@ -1,4 +1,4 @@
-[<article class="day-desc"><h2>--- Day 16: Chronal Classification ---</h2><p>As you see the Elves defend their hot chocolate successfully, you go back to falling through time. This is going to become a problem.</p>
+<article class="day-desc"><h2>--- Day 16: Chronal Classification ---</h2><p>As you see the Elves defend their hot chocolate successfully, you go back to falling through time. This is going to become a problem.</p>
 <p>If you're ever going to return to your own time, you need to understand how this device on your wrist works. You have a little while before you reach your next destination, and with a bit of trial and error, you manage to pull up a programming manual on the device's tiny screen.</p>
 <p>According to the manual, the device has four <a href="https://en.wikipedia.org/wiki/Hardware_register">registers</a> (numbered <code>0</code> through <code>3</code>) that can be manipulated by <a href="https://en.wikipedia.org/wiki/Instruction_set_architecture#Instructions">instructions</a> containing one of 16 opcodes. The registers start with the value <code>0</code>.</p>
 <p>Every instruction consists of four values: an <em>opcode</em>, two <em>inputs</em> (named <code>A</code> and <code>B</code>), and an <em>output</em> (named <code>C</code>), in that order. The opcode specifies the behavior of the instruction and how the inputs are interpreted. The output, <code>C</code>, is always treated as a register.</p>
@@ -56,4 +56,4 @@ After:  [3, 2, 2, 1]
 <p>None of the other opcodes produce the result captured in the sample. Because of this, the sample above <em>behaves like three opcodes</em>.</p>
 <p>You collect many of these samples (the first section of your puzzle input). The manual also includes a small test program (the second section of your puzzle input) - you can <em>ignore it for now</em>.</p>
 <p>Ignoring the opcode numbers, <em>how many samples in your puzzle input behave like three or more opcodes?</em></p>
-</article>]
+</article>

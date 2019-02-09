@@ -1,4 +1,4 @@
-[<article class="day-desc"><h2>--- Day 24: Immune System Simulator 20XX ---</h2><p>After <a href="https://www.youtube.com/watch?v=NDVjLt_QHL8&amp;t=7" target="_blank">a weird buzzing noise</a>, you appear back at the man's cottage. He seems relieved to see his friend, but quickly notices that the little reindeer caught some kind of cold while out exploring.</p>
+<article class="day-desc"><h2>--- Day 24: Immune System Simulator 20XX ---</h2><p>After <a href="https://www.youtube.com/watch?v=NDVjLt_QHL8&amp;t=7" target="_blank">a weird buzzing noise</a>, you appear back at the man's cottage. He seems relieved to see his friend, but quickly notices that the little reindeer caught some kind of cold while out exploring.</p>
 <p>The portly man explains that this reindeer's immune system isn't similar to regular reindeer immune systems:</p>
 <p>The <em>immune system</em> and the <em>infection</em> each have <span title="On second thought, it's pretty similar to regular reindeer immune systems.">an army</span> made up of several <em>groups</em>; each <em>group</em> consists of one or more identical <em>units</em>.  The armies repeatedly <em>fight</em> until only one army has units remaining.</p>
 <p><em>Units</em> within a group all have the same <em>hit points</em> (amount of damage a unit can take before it is destroyed), <em>attack damage</em> (the amount of damage each unit deals), an <em>attack type</em>, an <em>initiative</em> (higher initiative units attack first and win ties), and sometimes <em>weaknesses</em> or <em>immunities</em>. Here is an example group:</p>
@@ -146,4 +146,4 @@ Group 2 contains 4434 units
 </code></pre>
 <p>In the example above, the winning army ends up with <code>782 + 4434 = <em>5216</em></code> units.</p>
 <p>You scan the reindeer's condition (your puzzle input); the white-bearded man looks nervous.  As it stands now, <em>how many units would the winning army have</em>?</p>
-</article>]
+</article>

@@ -1,4 +1,4 @@
-[<article class="day-desc"><h2>--- Day 10: The Stars Align ---</h2><p>It's no use; your navigation system simply isn't capable of providing <span title="At the iceberg, use any lane to turn left. Then, swim for eight thousand miles.">walking directions</span> in the arctic circle, and certainly not in 1018.</p>
+<article class="day-desc"><h2>--- Day 10: The Stars Align ---</h2><p>It's no use; your navigation system simply isn't capable of providing <span title="At the iceberg, use any lane to turn left. Then, swim for eight thousand miles.">walking directions</span> in the arctic circle, and certainly not in 1018.</p>
 <p>The Elves suggest an alternative. In times like these, North Pole rescue operations will arrange points of light in the sky to guide missing Elves back to base. Unfortunately, the message is easy to miss: the points move slowly enough that it takes hours to align them, but have so much momentum that they only stay aligned for a second. If you blink at the wrong time, it might be hours before another message appears.</p>
 <p>You can see these points of light floating in the distance, and record their position in the sky and their velocity, the relative change in position per second (your puzzle input). The coordinates are all given from your perspective; given enough time, those positions and velocities will move the points into a cohesive message!</p>
 <p>Rather than wait, you decide to fast-forward the process and calculate what the points will eventually spell.</p>
@@ -130,4 +130,4 @@ After 4 seconds:
 </code></pre>
 <p>After 3 seconds, the message appeared briefly: <code><em>HI</em></code>. Of course, your message will be much longer and will take many more seconds to appear.</p>
 <p><em>What message will eventually appear in the sky?</em></p>
-</article>]
+</article>

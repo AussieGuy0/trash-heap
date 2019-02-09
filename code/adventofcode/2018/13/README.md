@@ -1,4 +1,4 @@
-[<article class="day-desc"><h2>--- Day 13: Mine Cart Madness ---</h2><p>A crop of this size requires significant logistics to transport produce, soil, fertilizer, and so on. The Elves are very busy pushing things around in <em>carts</em> on some kind of rudimentary system of tracks they've come up with.</p>
+<article class="day-desc"><h2>--- Day 13: Mine Cart Madness ---</h2><p>A crop of this size requires significant logistics to transport produce, soil, fertilizer, and so on. The Elves are very busy pushing things around in <em>carts</em> on some kind of rudimentary system of tracks they've come up with.</p>
 <p>Seeing as how cart-and-track systems don't appear in recorded history for <span title="Time anomalies! How do they work?!">another 1000 years</span>, the Elves seem to be making this up as they go along. They haven't even figured out how to avoid collisions yet.</p>
 <p>You map out the tracks (your puzzle input) and see where you can help.</p>
 <p>Tracks consist of straight paths (<code>|</code> and <code>-</code>), curves (<code>/</code> and <code>\</code>), and intersections (<code>+</code>). Curves connect exactly two perpendicular pieces of track; for example, this is a closed loop:</p>
@@ -146,4 +146,4 @@ v  |  |  |  |
 5  \------/   
 </code></pre>
 <p>In this example, the location of the first crash is <code><em>7,3</em></code>.</p>
-</article>]
+</article>

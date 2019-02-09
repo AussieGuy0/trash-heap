@@ -8,7 +8,7 @@ for i in range(25, 0, -1):
     res.raise_for_status()
     parsed = bs4.BeautifulSoup(res.text, "lxml")
 
-    desc = parsed.select('article.day-desc')
+    desc = parsed.select('article.day-desc')[0]
     dir_name = str(i)
 
 

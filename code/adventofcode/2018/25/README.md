@@ -1,4 +1,4 @@
-[<article class="day-desc"><h2>--- Day 25: Four-Dimensional Adventure ---</h2><p>The reindeer's symptoms are getting worse, and neither you nor the white-bearded man have a solution. At least the reindeer has a warm place to rest: a small bed near where you're sitting.</p>
+<article class="day-desc"><h2>--- Day 25: Four-Dimensional Adventure ---</h2><p>The reindeer's symptoms are getting worse, and neither you nor the white-bearded man have a solution. At least the reindeer has a warm place to rest: a small bed near where you're sitting.</p>
 <p>As you reach down, the reindeer looks up at you, <span title="It was not an accident.">accidentally</span> bumping a button on your wrist-mounted device with its nose in the process - a button labeled <em>"help"</em>.</p>
 <p>"Hello, and welcome to the Time Travel Support Hotline! If you are lost in time and space, press 1. If you are trapped in a time paradox, press 2. If you need help caring for a sick reindeer, press 3. If you--"</p>
 <p><em>Beep.</em></p>
@@ -58,4 +58,4 @@
 </code></pre>
 <p>The portly man nervously strokes his white beard. It's time to get that hot chocolate.</p>
 <p><em>How many constellations are formed by the fixed points in spacetime?</em></p>
-</article>]
+</article>

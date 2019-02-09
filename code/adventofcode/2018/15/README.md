@@ -1,4 +1,4 @@
-[<article class="day-desc"><h2>--- Day 15: Beverage Bandits ---</h2><p>Having perfected their hot chocolate, the Elves have a new problem: the <a href="https://en.wikipedia.org/wiki/Goblin">Goblins</a> that live in these caves will do anything to steal it. Looks like they're here for a fight.</p>
+<article class="day-desc"><h2>--- Day 15: Beverage Bandits ---</h2><p>Having perfected their hot chocolate, the Elves have a new problem: the <a href="https://en.wikipedia.org/wiki/Goblin">Goblins</a> that live in these caves will do anything to steal it. Looks like they're here for a fight.</p>
 <p>You scan the area, generating a map of the walls (<code>#</code>), open cavern (<code>.</code>), and starting position of every Goblin (<code>G</code>) and Elf (<code>E</code>) (your puzzle input).</p>
 <p>Combat proceeds in <em>rounds</em>; in each round, each unit that is still alive takes a <em>turn</em>, resolving all of its actions before the next unit's turn begins. On each unit's turn, it tries to <em>move</em> into range of an enemy (if it isn't already) and then <em>attack</em> (if it is in range).</p>
 <p>All units are very disciplined and always follow very strict combat rules. Units never move or attack diagonally, as doing so would be dishonorable. When multiple choices are equally valid, ties are broken in <em>reading order</em>: top-to-bottom, then left-to-right.  For instance, the order in which units take their turns within a round is the <em>reading order of their starting positions</em> in that round, regardless of the type of unit or whether other units have moved after the round started.  For example:</p>
@@ -258,4 +258,4 @@ Goblins win with 937 total hit points left
 Outcome: 20 * 937 = <em>18740</em>
 </code></pre>
 <p><em>What is the outcome</em> of the combat described in your puzzle input?</p>
-</article>]
+</article>

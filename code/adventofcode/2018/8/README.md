@@ -1,4 +1,4 @@
-[<article class="day-desc"><h2>--- Day 8: Memory Maneuver ---</h2><p>The sleigh is much easier to pull than you'd expect for something its weight. Unfortunately, neither you nor the Elves know <span title="It's North. Obviously.">which way</span> the North Pole is from here.</p>
+<article class="day-desc"><h2>--- Day 8: Memory Maneuver ---</h2><p>The sleigh is much easier to pull than you'd expect for something its weight. Unfortunately, neither you nor the Elves know <span title="It's North. Obviously.">which way</span> the North Pole is from here.</p>
 <p>You check your wrist device for anything that might help.  It seems to have some kind of navigation system!  Activating the navigation system produces more bad news: "Failed to start navigation system. Could not read software license file."</p>
 <p>The navigation system's license file consists of a list of numbers (your puzzle input).  The numbers define a data structure which, when processed, produces some kind of <a href="https://en.wikipedia.org/wiki/Tree_(data_structure)">tree</a> that can be used to calculate the license number.</p>
 <p>The <em>tree</em> is made up of <em>nodes</em>; a single, outermost node forms the tree's <em>root</em>, and it contains all other nodes in the tree (or contains nodes that contain nodes, and so on).</p>
@@ -27,4 +27,4 @@ A----------------------------------
 </ul>
 <p>The first check done on the license file is to simply add up all of the metadata entries.  In this example, that sum is <code>1+1+2+10+11+12+2+99=<em>138</em></code>.</p>
 <p><em>What is the sum of all metadata entries?</em></p>
-</article>]
+</article>

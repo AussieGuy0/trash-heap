@@ -1,4 +1,4 @@
-[<article class="day-desc"><h2>--- Day 20: A Regular Map ---</h2><p>While you were learning about instruction pointers, the Elves made considerable progress. When you look up, you discover that the North Pole base construction project has completely surrounded you.</p>
+<article class="day-desc"><h2>--- Day 20: A Regular Map ---</h2><p>While you were learning about instruction pointers, the Elves made considerable progress. When you look up, you discover that the North Pole base construction project has completely surrounded you.</p>
 <p>The area you are in is made up entirely of <em>rooms</em> and <em>doors</em>. The rooms are arranged in a grid, and rooms only connect to adjacent rooms when a door is present between them.</p>
 <p>For example, drawing rooms as <code>.</code>, walls as <code>#</code>, doors as <code>|</code> or <code>-</code>, your current position as <code>X</code>, and where north is up, the area you're in might look like this:</p>
 <pre><code>#####
@@ -118,4 +118,4 @@ Furthest room requires passing 31 doors
 ###############
 </code></pre>
 <p><em>What is the largest number of doors you would be required to pass through to reach a room?</em> That is, find the room for which the shortest path from your starting location to that room would require passing through the most doors; what is the fewest doors you can pass through to reach it?</p>
-</article>]
+</article>

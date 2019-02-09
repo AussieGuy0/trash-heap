@@ -1,4 +1,4 @@
-[<article class="day-desc"><h2>--- Day 18: Settlers of The North Pole ---</h2><p>On the outskirts of the North Pole base construction project, many Elves are collecting <span title="Trade wood for sheep?">lumber</span>.</p>
+<article class="day-desc"><h2>--- Day 18: Settlers of The North Pole ---</h2><p>On the outskirts of the North Pole base construction project, many Elves are collecting <span title="Trade wood for sheep?">lumber</span>.</p>
 <p>The lumber collection area is 50 acres by 50 acres; each acre can be either <em>open ground</em> (<code>.</code>), <em>trees</em> (<code>|</code>), or a <em>lumberyard</em> (<code>#</code>). You take a scan of the area (your puzzle input).</p>
 <p>Strange magic is at work here: each minute, the landscape looks entirely different. In exactly <em>one minute</em>, an open acre can fill with trees, a wooded acre can be converted to a lumberyard, or a lumberyard can be cleared to open ground (the lumber having been sent to other projects).</p>
 <p>The change to each acre is based entirely on <em>the contents of that acre</em> as well as <em>the number of open, wooded, or lumberyard acres adjacent to it</em> at the start of each minute. Here, "adjacent" means any of the eight acres surrounding that acre. (Acres on the edges of the lumber collection area might have fewer than eight adjacent acres; the missing acres aren't counted.)</p>
@@ -144,4 +144,4 @@ After 10 minutes:
 </code></pre>
 <p>After 10 minutes, there are <code>37</code> wooded acres and <code>31</code> lumberyards.  Multiplying the number of wooded acres by the number of lumberyards gives the total <em>resource value</em> after ten minutes: <code>37 * 31 = <em>1147</em></code>.</p>
 <p><em>What will the total resource value of the lumber collection area be after 10 minutes?</em></p>
-</article>]
+</article>

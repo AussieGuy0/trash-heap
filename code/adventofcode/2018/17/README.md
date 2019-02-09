@@ -1,4 +1,4 @@
-[<article class="day-desc"><h2>--- Day 17: Reservoir Research ---</h2><p>You arrive in the year 18. If it weren't for <span title="Continuity!">the coat</span> you got in 1018, you would be very cold: the North Pole base hasn't even been constructed.</p>
+<article class="day-desc"><h2>--- Day 17: Reservoir Research ---</h2><p>You arrive in the year 18. If it weren't for <span title="Continuity!">the coat</span> you got in 1018, you would be very cold: the North Pole base hasn't even been constructed.</p>
 <p>Rather, it hasn't been constructed <em>yet</em>.  The Elves are making a little progress, but there's not a lot of liquid water in this climate, so they're getting very dehydrated.  Maybe there's more underground?</p>
 <p>You scan a two-dimensional vertical slice of the ground nearby and discover that it is mostly <em>sand</em> with veins of <em>clay</em>.  The scan only provides data with a granularity of <em>square meters</em>, but it should be good enough to determine how much water is trapped there. In the scan, <code>x</code> represents the distance to the right, and <code>y</code> represents the distance down. There is also a <em>spring of water</em> near the surface at <code>x=500, y=0</code>. The scan identifies <em>which square meters are clay</em> (your puzzle input).</p>
 <p>For example, suppose your scan shows the following veins of clay:</p>
@@ -134,4 +134,4 @@ y=13, x=498..504
 <p>How many tiles can be reached by the water?  <em>To prevent counting forever</em>, ignore tiles with a <code>y</code> coordinate smaller than the smallest <code>y</code> coordinate in your scan data or larger than the largest one. Any <code>x</code> coordinate is valid. In this example, the lowest <code>y</code> coordinate given is <code>1</code>, and the highest is <code>13</code>, causing the water spring (in row <code>0</code>) and the water falling off the bottom of the render (in rows <code>14</code> through infinity) to be ignored.</p>
 <p>So, in the example above, counting both water at rest (<code>~</code>) and other sand tiles the water can hypothetically reach (<code>|</code>), the total number of tiles the water can reach is <code><em>57</em></code>.</p>
 <p><em>How many tiles can the water reach</em> within the range of <code>y</code> values in your scan?</p>
-</article>]
+</article>

@@ -1,4 +1,4 @@
-[<article class="day-desc"><h2>--- Day 9: Marble Mania ---</h2><p>You talk to the Elves while you wait for your navigation system to <span title="Do you have any idea how long it takes to load navigation data for all of time and space?!">initialize</span>. To pass the time, they introduce you to their favorite <a href="https://en.wikipedia.org/wiki/Marble_(toy)">marble</a> game.</p>
+<article class="day-desc"><h2>--- Day 9: Marble Mania ---</h2><p>You talk to the Elves while you wait for your navigation system to <span title="Do you have any idea how long it takes to load navigation data for all of time and space?!">initialize</span>. To pass the time, they introduce you to their favorite <a href="https://en.wikipedia.org/wiki/Marble_(toy)">marble</a> game.</p>
 <p>The Elves play this game by taking turns arranging the marbles in a <em>circle</em> according to very particular rules. The marbles are numbered starting with <code>0</code> and increasing by <code>1</code> until every marble has a number.</p>
 <p>First, the marble numbered <code>0</code> is placed in the circle. At this point, while it contains only a single marble, it is still a circle: the marble is both clockwise from itself and counter-clockwise from itself. This marble is designated the <em>current marble</em>.</p>
 <p>Then, each Elf takes a turn placing the <em>lowest-numbered remaining marble</em> into the circle between the marbles that are <code>1</code> and <code>2</code> marbles <em>clockwise</em> of the current marble. (When the circle is large enough, this means that there is one marble between the marble that was just placed and the current marble.) The marble that was just placed then becomes the <em>current marble</em>.</p>
@@ -41,4 +41,4 @@
 <li><code>30</code> players; last marble is worth <code>5807</code> points: high score is <em><code>37305</code></em></li>
 </ul>
 <p><em>What is the winning Elf's score?</em></p>
-</article>]
+</article>

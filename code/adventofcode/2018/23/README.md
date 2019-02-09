@@ -1,4 +1,4 @@
-[<article class="day-desc"><h2>--- Day 23: Experimental Emergency Teleportation ---</h2><p>Using your torch to search the darkness of the rocky cavern, you finally locate the man's friend: a small <em>reindeer</em>.</p>
+<article class="day-desc"><h2>--- Day 23: Experimental Emergency Teleportation ---</h2><p>Using your torch to search the darkness of the rocky cavern, you finally locate the man's friend: a small <em>reindeer</em>.</p>
 <p>You're not sure how it got so far in this cave.  It looks sick - too sick to walk - and too heavy for you to carry all the way back.  Sleighs won't be invented for another 1500 years, of course.</p>
 <p>The only option is <em>experimental emergency teleportation</em>.</p>
 <p>You hit the "experimental emergency teleportation" <span title="We've always had this button; we've just been too scared to press it.">button</span> on the device and push <em>I accept the risk</em> on no fewer than 18 different warning messages. Immediately, the device deploys hundreds of tiny <em>nanobots</em> which fly around the cavern, apparently assembling themselves into a very specific <em>formation</em>. The device lists the <code>X,Y,Z</code> position (<code>pos</code>) for each nanobot as well as its <em>signal radius</em> (<code>r</code>) on its tiny screen (your puzzle input).</p>
@@ -29,4 +29,4 @@ pos=&lt;1,3,1&gt;, r=1
 </ul>
 <p>In this example, in total, <code><em>7</em></code> nanobots are in range of the nanobot with the largest signal radius.</p>
 <p>Find the nanobot with the largest signal radius.  <em>How many nanobots are in range</em> of its signals?</p>
-</article>]
+</article>
