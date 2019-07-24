@@ -17,6 +17,7 @@
   "author": "Anthony Bruno <anthony.bruno196@gmail.com> (http://anthonybruno.dev)",
   "license": "MIT",
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
