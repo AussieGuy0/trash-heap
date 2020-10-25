@@ -1,5 +1,6 @@
 package dev.anthonybruno.concurrency.chat.client;
 
+import dev.anthonybruno.concurrency.chat.server.event.ClientDisconnectedEvent;
 import dev.anthonybruno.concurrency.chat.util.IoUtils;
 import dev.anthonybruno.concurrency.chat.Message;
 import dev.anthonybruno.concurrency.chat.display.ConsoleDisplay;
@@ -10,6 +11,7 @@ import org.slf4j.LoggerFactory;
 import java.io.*;
 import java.net.InetSocketAddress;
 import java.net.Socket;
+import java.nio.channels.Channels;
 import java.time.Instant;
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
@@ -67,11 +69,13 @@ public class Client {
                     LOG.info("Terminating read thread");
                     return;
                 }
-                if (doUnchecked(reader::ready))  {
-                    String line = doUnchecked(reader::readLine);
-                    Message message = Message.fromString(line);
-                    display.showMessage(message);
+                String line = doUnchecked(reader::readLine);
+                if (line == null) {
+                    LOG.info("Server terminated connection");
+                    return;
                 }
+                Message message = Message.fromString(line);
+                display.showMessage(message);
             }
         }
 
@@ -101,7 +105,7 @@ public class Client {
                     LOG.info("Terminating write thread");
                     return;
                 }
-                String line = scanner.nextLine();
+                String line = scanner.nextLine(); //TODO: Abort this somehow
                 Message toSend = createMessage(line);
                 printWriter.println(toSend.toString());
                 printWriter.flush();

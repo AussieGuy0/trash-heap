@@ -8,16 +8,19 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
+import java.net.SocketException;
+import java.nio.channels.Channels;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.concurrent.atomic.AtomicReference;
 
 import static dev.anthonybruno.concurrency.chat.util.IoUtils.doUnchecked;
 
-public class ChatConnection {
+public class ChatConnection implements AutoCloseable {
 
     private static final Logger LOG = LoggerFactory.getLogger(ChatConnection.class);
 
@@ -41,19 +44,36 @@ public class ChatConnection {
         BufferedReader reader = new BufferedReader(new InputStreamReader(doUnchecked(socket::getInputStream)));
         Thread thread = new Thread(() -> {
             while (true) {
-                String line = doUnchecked(reader::readLine);
+                String line;
+                try {
+                    line = reader.readLine();
+                } catch (IOException e) {
+                    if (e instanceof SocketException) {
+                        // Probably socket closing, can we check without resorting to reading exception message?
+                        LOG.info("Error received from socket. This probably indicates that the socket has been closed", e);
+                        return;
+                    }
+                    LOG.error("Unexpected fatal exception while reading from socket, closing client.", e);
+                    return;
+                }
                 if (line == null) {
                     LOG.info("Client terminated connection");
                     eventQueue.addEvent(new ClientDisconnectedEvent(this));
                     return;
                 }
                 LOG.info("Received line: {}", line);
-                Message message = Message.fromString(line);
+                Message message;
+                try {
+                    message = Message.fromString(line);
+                } catch (IllegalArgumentException e) {
+                    LOG.error("Error parsing line from client", e);
+                    continue;
+                }
                 clientName.compareAndSet(null, message.clientName());
                 eventQueue.addEvent(new MessageReceivedEvent(this, message));
 
                 if (socket.isClosed() || Thread.interrupted()) {
-                    IoUtils.closeSilently(reader);
+                    IoUtils.closeUnchecked(reader);
                     return;
                 }
             }
@@ -81,5 +101,11 @@ public class ChatConnection {
     @Override
     public int hashCode() {
         return Objects.hash(socket, eventQueue, readThread);
+    }
+
+    @Override
+    public void close() {
+        IoUtils.closeUnchecked(socket);
+        readThread.interrupt();
     }
 }

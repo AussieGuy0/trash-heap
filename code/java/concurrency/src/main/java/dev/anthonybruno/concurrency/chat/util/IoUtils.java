@@ -7,7 +7,7 @@ import java.util.function.Supplier;
 
 public class IoUtils {
 
-    public static void closeSilently(AutoCloseable closeable) {
+    public static void closeUnchecked(AutoCloseable closeable) {
         try {
             closeable.close();
         } catch (Exception e) {

@@ -19,6 +19,7 @@ import java.net.Socket;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 public class Server {
@@ -34,6 +35,7 @@ public class Server {
     }
 
     public void start(int port) {
+        Runtime.getRuntime().addShutdownHook(new Thread(this::shutdown));
         startEventThread();
         LOG.info("Starting up server on port {}", port);
         ServerSocket serverSocket = IoUtils.doUnchecked(() -> new ServerSocket(port));
@@ -43,6 +45,18 @@ public class Server {
             ChatConnection chatConnection = new ChatConnection(socket, eventQueue);
             chatConnections.add(chatConnection);
             eventQueue.addEvent(new ClientConnectedEvent(chatConnection));
+        }
+    }
+
+    public void shutdown() {
+        synchronized (chatConnections) {
+            Iterator<ChatConnection> chatConnectionIterator = chatConnections.iterator();
+            while (chatConnectionIterator.hasNext()) {
+                ChatConnection chatConnection = chatConnectionIterator.next();
+                chatConnection.sendMessage(createServerMessage("Server is shutting down. Bye!"));
+                chatConnection.close();
+                chatConnectionIterator.remove();
+            }
         }
     }
 
@@ -58,6 +72,10 @@ public class Server {
         synchronized (chatConnections) {
             chatConnections.remove(toRemove);
         }
+    }
+
+    private Message createServerMessage(String message) {
+        return new Message("server", Instant.now(), message);
     }
 
     private class ServerEventListener implements EventListener {
@@ -87,9 +105,6 @@ public class Server {
             sendMessageToAllClientsExcept(message);
         }
 
-        private Message createServerMessage(String message) {
-            return new Message("server", Instant.now(), message);
-        }
 
         private void sendMessageToAllClientsExcept(Message message, ChatConnection... exceptions) {
             for (ChatConnection chatConnection : chatConnections) {
