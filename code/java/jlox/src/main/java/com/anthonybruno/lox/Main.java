@@ -1,0 +1,10 @@
+package com.anthonybruno.lox;
+
+import java.io.IOException;
+
+public class Main {
+
+  public static void main(String[] args) throws IOException {
+    new Lox().run(args);
+  }
+}
