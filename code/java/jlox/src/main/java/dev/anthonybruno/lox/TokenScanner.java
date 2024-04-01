@@ -1,12 +1,11 @@
-package com.anthonybruno.lox;
+package dev.anthonybruno.lox;
 
 import javax.annotation.Nullable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
 
-import static com.anthonybruno.lox.TokenType.*;
+import static dev.anthonybruno.lox.TokenType.*;
 
 public class TokenScanner {
   private static final Map<String, TokenType> keywords = Map.ofEntries(

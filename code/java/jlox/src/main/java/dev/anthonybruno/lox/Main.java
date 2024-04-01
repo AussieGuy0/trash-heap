@@ -1,4 +1,4 @@
-package com.anthonybruno.lox;
+package dev.anthonybruno.lox;
 
 import java.io.IOException;
 
