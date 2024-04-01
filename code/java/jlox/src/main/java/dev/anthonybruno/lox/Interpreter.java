@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Objects;
 
 public class Interpreter {
+  private final Environment globalEnvironment = new Environment();
 
   enum Result {
     SUCCESS,
@@ -13,7 +14,7 @@ public class Interpreter {
 
   Result interpret(List<Stmt> statements) {
     try {
-      statements.forEach(this::execute);
+      statements.forEach((stmt -> execute(stmt, globalEnvironment)));
       return Result.SUCCESS;
     } catch (RuntimeError e) {
       ErrorReporter.runtimeError(e);
@@ -21,29 +22,45 @@ public class Interpreter {
     }
   }
 
-  // Using Void return to allow for switch expression, but always returns null.
+  // Using Void return to allow for switch expression.
   @Nullable
-  Void execute(Stmt stmt) {
+  private Void execute(Stmt stmt, Environment environment) {
     return switch (stmt) {
       case Stmt.Expression expression -> {
-        evaluate(expression.expression());
+        evaluate(expression.expression(), environment);
         yield null;
       }
       case Stmt.Print print -> {
-        var value = evaluate(print.expression());
+        var value = evaluate(print.expression(), environment);
         System.out.println(stringify(value));
+        yield null;
+      }
+      case Stmt.Var var -> {
+         Object value = null;
+        if (var.initializer() != null) {
+          value = evaluate(var.initializer(), environment);
+        }
+        environment.define(var.name().lexeme(), value);
+        yield null;
+      }
+      case Stmt.Block block -> {
+        var newEnvironment = new Environment(environment);
+        block.statements().forEach(blockStmt -> execute(blockStmt, newEnvironment));
         yield null;
       }
     };
   }
 
-  Object evaluate(Expr expr) {
+  private void executeBlock(List<Stmt> statements, Environment environment) {
+  }
+
+  private Object evaluate(Expr expr, Environment environment) {
     return switch (expr) {
-      case Expr.Binary binary -> binary(binary);
-      case Expr.Grouping grouping -> evaluate(grouping.expression());
+      case Expr.Binary binary -> binary(binary, environment);
+      case Expr.Grouping grouping -> evaluate(grouping.expression(), environment);
       case Expr.Literal literal -> literal.value();
       case Expr.Unary unary -> {
-        var right = evaluate(unary.right());
+        var right = evaluate(unary.right(), environment);
         yield switch (unary.operator().type()) {
           case BANG -> !isTruthy(right);
           case MINUS -> {
@@ -53,12 +70,18 @@ public class Interpreter {
           default -> throw new IllegalStateException("unreachable");
         };
       }
+      case Expr.Variable variable -> environment.get(variable.name());
+      case Expr.Assign assign -> {
+        var value = evaluate(assign.value(), environment);
+        environment.assign(assign.name(), value);
+        yield value;
+      }
     };
   }
 
-  private Object binary(Expr.Binary binary) {
-    var left = evaluate(binary.left());
-    var right = evaluate(binary.right());
+  private Object binary(Expr.Binary binary, Environment environment) {
+    var left = evaluate(binary.left(), environment);
+    var right = evaluate(binary.right(), environment);
 
     return switch (binary.operator().type()) {
       case GREATER -> {

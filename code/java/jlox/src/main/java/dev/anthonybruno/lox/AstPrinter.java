@@ -8,6 +8,8 @@ public class AstPrinter {
       case Expr.Grouping grouping -> parenthesize("group", grouping.expression());
       case Expr.Literal literal -> literal.value() == null ? "nil" : literal.value().toString();
       case Expr.Unary unary -> parenthesize(unary.operator().lexeme(),  unary.right());
+      case Expr.Variable variable -> variable.name().lexeme();
+      case Expr.Assign assign -> parenthesize(assign.name().lexeme(), assign.value());
     };
   }
 

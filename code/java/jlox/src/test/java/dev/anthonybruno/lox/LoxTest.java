@@ -16,7 +16,33 @@ public class LoxTest {
 
   @Test
   public void runAddition() {
-    assertThatCode(() -> lox.run("5 + 5"))
+    assertThatCode(() -> lox.run("5 + 5;"))
       .doesNotThrowAnyException();
+  }
+
+  @Test
+  public void runComplex() {
+    lox.run("""
+     var a = "global a";
+     var b = "global b";
+     var c = "global c";
+     {
+       var a = "outer a";
+       var b = "outer b";
+       {
+         var a = "inner a";
+         print a;
+         print b;
+         print c;
+       }
+       print a;
+       print b;
+       print c;
+     }
+     print a;
+     print b;
+     print c;
+      """);
+
   }
 }
