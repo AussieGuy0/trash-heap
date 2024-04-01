@@ -14,6 +14,14 @@ public class ErrorReporter {
     }
   }
 
+  static void runtimeError(RuntimeError error) {
+    System.err.println(STR.
+      """
+       \{error.getMessage()}
+       [line \{error.token.line()}]
+      """);
+  }
+
   private static void report(int line, String where, String message) {
     System.err.println(STR."[line \{line}] Error \{where}: \{message}");
   }

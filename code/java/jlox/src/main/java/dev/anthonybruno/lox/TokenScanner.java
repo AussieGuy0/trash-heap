@@ -73,7 +73,7 @@ public class TokenScanner {
       case '+' -> createToken(PLUS);
       case ';' -> createToken(SEMICOLON);
       case '*' -> createToken(STAR);
-      case '!' -> createToken(match('=') ? BANG_EQUAL : EQUAL);
+      case '!' -> createToken(match('=') ? BANG_EQUAL : BANG);
       case '=' -> createToken(match('=') ? EQUAL_EQUAL : EQUAL);
       case '<' -> createToken(match('=') ? LESS_EQUAL : LESS);
       case '>' -> createToken(match('=') ? GREATER_EQUAL : GREATER);
