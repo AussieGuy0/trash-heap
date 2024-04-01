@@ -1,5 +1,7 @@
 package dev.anthonybruno.lox;
 
+import javax.annotation.Nullable;
+import java.util.List;
 import java.util.Objects;
 
 public class Interpreter {
@@ -9,15 +11,30 @@ public class Interpreter {
     ERROR
   }
 
-  Result interpret(Expr expr) {
+  Result interpret(List<Stmt> statements) {
     try {
-      var value = evaluate(expr);
-      System.out.println(stringify(value));
+      statements.forEach(this::execute);
       return Result.SUCCESS;
     } catch (RuntimeError e) {
       ErrorReporter.runtimeError(e);
       return Result.ERROR;
     }
+  }
+
+  // Using Void return to allow for switch expression, but always returns null.
+  @Nullable
+  Void execute(Stmt stmt) {
+    return switch (stmt) {
+      case Stmt.Expression expression -> {
+        evaluate(expression.expression());
+        yield null;
+      }
+      case Stmt.Print print -> {
+        var value = evaluate(print.expression());
+        System.out.println(stringify(value));
+        yield null;
+      }
+    };
   }
 
   Object evaluate(Expr expr) {

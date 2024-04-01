@@ -3,7 +3,6 @@ package dev.anthonybruno.lox.tool;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.charset.StandardCharsets;
-import java.util.List;
 
 // TODO: Move to different maven sub-project.
 public class GenerateAst {
@@ -20,6 +19,12 @@ public class GenerateAst {
         Grouping : Expr expression
         Literal  : Object value
         Unary    : Token operator, Expr right
+        """
+    );
+    defineAst(outputDir, "Stmt",
+      """
+        Expression : Expr expression
+        Print      : Expr expression
         """
     );
   }

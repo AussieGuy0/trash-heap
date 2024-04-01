@@ -53,12 +53,12 @@ public class Lox {
     var scanner = new TokenScanner(source);
     var tokens = scanner.scanTokens();
     var parser = new Parser(tokens);
-    var expression = parser.parse();
+    var statements = parser.parse();
     hadError = scanner.hadError() || parser.hadError();
     if (hadError) {
       return;
     }
-    var result = interpreter.interpret(expression);
+    var result = interpreter.interpret(statements);
     if (result == Interpreter.Result.ERROR) {
       hadRuntimeError = true;
     }

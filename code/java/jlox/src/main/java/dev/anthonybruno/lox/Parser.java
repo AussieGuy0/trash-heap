@@ -1,6 +1,6 @@
 package dev.anthonybruno.lox;
 
-import javax.annotation.Nullable;
+import java.util.ArrayList;
 import java.util.List;
 
 import static dev.anthonybruno.lox.TokenType.*;
@@ -32,13 +32,30 @@ public class Parser {
     this.tokens = tokens;
   }
 
-  @Nullable
-  Expr parse() {
-    try {
-      return expression();
-    } catch (ParseError e) {
-      return null;
+  List<Stmt> parse() {
+    var statements = new ArrayList<Stmt>();
+    while (!isAtEnd()) {
+      statements.add(statement());
     }
+    return statements;
+  }
+
+  private Stmt statement() {
+    if (match(PRINT)) return printStatement();
+
+    return expressionStatement();
+  }
+
+  private Stmt printStatement() {
+    var value = expression();
+    consume(SEMICOLON, "Expect ';' after value");
+    return new Stmt.Print(value);
+  }
+
+  private Stmt expressionStatement() {
+    var expr = expression();
+    consume(SEMICOLON, "Expect ';' after expression.");
+    return new Stmt.Expression(expr);
   }
 
   private Expr expression() {

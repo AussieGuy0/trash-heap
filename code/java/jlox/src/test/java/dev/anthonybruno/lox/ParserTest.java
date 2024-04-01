@@ -12,9 +12,12 @@ public class ParserTest {
   void parsesNumber() {
     var expr = parse(
       new Token(TokenType.NUMBER, "1", 1.0, 1),
-      eofToken(1)
+      semicolon(1),
+      eof(1)
     );
-    assertThat(expr).isEqualTo(new Expr.Literal(1.0));
+    assertThat(expr).containsExactly(exprStmt(
+      new Expr.Literal(1.0)
+    ));
   }
 
   @Test
@@ -23,9 +26,12 @@ public class ParserTest {
       new Token(TokenType.LEFT_PAREN, "(", null, 1),
       new Token(TokenType.NUMBER, "1", 1.0, 1),
       new Token(TokenType.RIGHT_PAREN, ")", null, 1),
-      eofToken(1)
+      semicolon(1),
+      eof(1)
     );
-    assertThat(expr).isEqualTo(new Expr.Grouping(new Expr.Literal(1.0)));
+    assertThat(expr).containsExactly(
+      exprStmt(new Expr.Grouping(new Expr.Literal(1.0)))
+    );
   }
 
   @Test
@@ -35,10 +41,12 @@ public class ParserTest {
       new Token(TokenType.NUMBER, "1", 1.0, 1),
       operator,
       new Token(TokenType.NUMBER, "2", 2.0, 1),
-      eofToken(1)
+      semicolon(1),
+      eof(1)
     );
-    assertThat(expr).isEqualTo(new Expr.Binary(
-      new Expr.Literal(1.0), operator, new Expr.Literal(2.0)));
+    assertThat(expr).containsExactly(exprStmt(
+      new Expr.Binary(new Expr.Literal(1.0), operator, new Expr.Literal(2.0)))
+    );
   }
 
   @Test
@@ -47,16 +55,27 @@ public class ParserTest {
     var expr = parse(
       operator,
       new Token(TokenType.NUMBER, "1", 1.0, 1),
-      eofToken(1)
+      semicolon(1),
+      eof(1)
     );
-    assertThat(expr).isEqualTo(new Expr.Unary(operator, new Expr.Literal(1.0)));
+    assertThat(expr).containsExactly(exprStmt(
+      new Expr.Unary(operator, new Expr.Literal(1.0))
+    ));
   }
 
-  private Expr parse(Token... tokens) {
+  private List<Stmt> parse(Token... tokens) {
     return new Parser(List.of(tokens)).parse();
   }
 
-  private Token eofToken(int line) {
+  private Stmt.Expression exprStmt(Expr expr) {
+    return new Stmt.Expression(expr);
+  }
+
+  private Token eof(int line) {
     return new Token(TokenType.EOF, null, null, line);
+  }
+
+  private Token semicolon(int line) {
+    return new Token(TokenType.SEMICOLON, null, null, line);
   }
 }
