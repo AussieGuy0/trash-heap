@@ -47,10 +47,13 @@ public class Lox {
   public void run(String source) {
     var scanner = new TokenScanner(source);
     var tokens = scanner.scanTokens();
-    for (var token : tokens) {
-      System.out.println(token);
+    var parser = new Parser(tokens);
+    var expression = parser.parse();
+    hadError = scanner.hadError() || parser.hadError();
+    if (hadError) {
+      return;
     }
-    hadError = scanner.hadError();
+    System.out.println(new AstPrinter().print(expression));
   }
 
 
