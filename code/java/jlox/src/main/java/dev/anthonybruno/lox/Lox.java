@@ -10,8 +10,8 @@ import java.nio.file.Path;
 public class Lox {
 
   private final Interpreter interpreter = new Interpreter();
-  boolean hadError = false;
-  boolean hadRuntimeError = false;
+  private boolean hadError = false;
+  private boolean hadRuntimeError = false;
 
   public void run(String[] args) throws IOException {
     if (args.length > 1) {
@@ -44,8 +44,25 @@ public class Lox {
       if (line == null) {
         break;
       }
-      run(line);
-      hadError = false;
+      runRepl(line);
+    }
+  }
+
+  public void runRepl(String source) {
+    var scanner = new TokenScanner(source);
+    var tokens = scanner.scanTokens();
+    var parser = new Parser(tokens);
+    var statements = parser.parse();
+    if (scanner.hadError() || parser.hadError()) {
+      return;
+    }
+    if (statements.size() == 1) {
+      var result = interpreter.interpret(statements.get(0));
+      if (result.result() != null) {
+        System.out.println(result.result());
+      }
+    } else {
+      interpreter.interpret(statements);
     }
   }
 
@@ -59,7 +76,7 @@ public class Lox {
       return;
     }
     var result = interpreter.interpret(statements);
-    if (result == Interpreter.Result.ERROR) {
+    if (result == Interpreter.ResultStatus.ERROR) {
       hadRuntimeError = true;
     }
   }

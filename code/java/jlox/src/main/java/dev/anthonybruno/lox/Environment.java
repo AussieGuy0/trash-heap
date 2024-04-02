@@ -5,6 +5,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Environment {
+  // Sentinel value to represent an initialized value.
+  private static final Object UNINITIALIZED = new Object();
+
   @Nullable
   private final Environment enclosing;
   private final Map<String, Object> values = new HashMap<>();
@@ -17,13 +20,21 @@ public class Environment {
     this.enclosing = enclosing;
   }
 
+  void define(String name) {
+    values.put(name, UNINITIALIZED);
+  }
+
   void define(String name, Object value) {
     values.put(name, value);
   }
 
   Object get(Token name) {
      if (values.containsKey(name.lexeme())) {
-      return values.get(name.lexeme());
+      var value = values.get(name.lexeme());
+      if (value == UNINITIALIZED) {
+        throw new RuntimeError(name, STR."Uninitialized variable \{name.lexeme()}");
+      }
+      return value;
     }
 
     if (enclosing != null) {

@@ -7,40 +7,49 @@ import java.util.Objects;
 public class Interpreter {
   private final Environment globalEnvironment = new Environment();
 
-  enum Result {
+  enum ResultStatus {
     SUCCESS,
     ERROR
   }
 
-  Result interpret(List<Stmt> statements) {
+  record Result(ResultStatus resultStatus, @Nullable Object result) {}
+
+  ResultStatus interpret(List<Stmt> statements) {
     try {
       statements.forEach((stmt -> execute(stmt, globalEnvironment)));
-      return Result.SUCCESS;
+      return ResultStatus.SUCCESS;
     } catch (RuntimeError e) {
       ErrorReporter.runtimeError(e);
-      return Result.ERROR;
+      return ResultStatus.ERROR;
     }
   }
 
-  // Using Void return to allow for switch expression.
+  Result interpret(Stmt statement) {
+    try {
+      var result = execute(statement, globalEnvironment);
+      return new Result(ResultStatus.SUCCESS, result);
+    } catch (RuntimeError e) {
+      ErrorReporter.runtimeError(e);
+      return new Result(ResultStatus.ERROR, null);
+    }
+  }
+
   @Nullable
-  private Void execute(Stmt stmt, Environment environment) {
+  private Object execute(Stmt stmt, Environment environment) {
     return switch (stmt) {
-      case Stmt.Expression expression -> {
-        evaluate(expression.expression(), environment);
-        yield null;
-      }
+      case Stmt.Expression expression -> evaluate(expression.expression(), environment);
       case Stmt.Print print -> {
         var value = evaluate(print.expression(), environment);
         System.out.println(stringify(value));
         yield null;
       }
       case Stmt.Var var -> {
-         Object value = null;
         if (var.initializer() != null) {
-          value = evaluate(var.initializer(), environment);
+          var value = evaluate(var.initializer(), environment);
+          environment.define(var.name().lexeme(), value);
+        } else {
+          environment.define(var.name().lexeme());
         }
-        environment.define(var.name().lexeme(), value);
         yield null;
       }
       case Stmt.Block block -> {
@@ -49,9 +58,6 @@ public class Interpreter {
         yield null;
       }
     };
-  }
-
-  private void executeBlock(List<Stmt> statements, Environment environment) {
   }
 
   private Object evaluate(Expr expr, Environment environment) {

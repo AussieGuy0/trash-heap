@@ -23,7 +23,7 @@ public class InterpreterTest {
         )
       )
     );
-    assertThat(evaluated).isEqualTo(Interpreter.Result.SUCCESS);
+    assertThat(evaluated).isEqualTo(Interpreter.ResultStatus.SUCCESS);
   }
 
 }
