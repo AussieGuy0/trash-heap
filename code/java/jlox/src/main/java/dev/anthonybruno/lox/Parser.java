@@ -11,13 +11,18 @@ import static dev.anthonybruno.lox.TokenType.*;
  * program        -> declaration* EOF;
  * declaration    -> varDecl | statement;
  * varDecl        -> "var" IDENTIFIER ( "=" expression )? ";";
- * statement      -> exprStmt | ifStmt | printStmt;
+ *
+ * statement      -> exprStmt | ifStmt | printStmt | whileStmt | block;
  * exprStmt       -> expression ";";
  * ifStmt         -> "if" "(" expression ")" statement ( "else" statement )? ;
- * printStmt       -> "print" expression ";";
+ * printStmt      -> "print" expression ";";
+ * whileStmt      -> "while" "(" expression ")" statement;
+ * blockStmt......-> "{" statement* "}";
  *
  * expression     -> assignment;
- * assignment     -> IDENTIFIER "=" assignment | equality;
+ * assignment     -> IDENTIFIER "=" assignment | logic_or;
+ * logic_or       -> logic_and ( "or" logic_and )*;
+ * logic_and      -> equality ( "and" equality)*;
  * equality       -> comparison ( ( "!=" | "==" ) comparison )* ;
  * comparison     -> term ( ( ">" | ">=" | "<" | "<=" ) term )* ;
  * term           -> factor ( ( "-" | "+" ) factor )* ;
@@ -65,10 +70,12 @@ public class Parser {
   private Stmt statement() {
     if (match(IF)) return ifStatement();
     if (match(PRINT)) return printStatement();
+    if (match(WHILE)) return whileStatement();
     if (match(LEFT_BRACE)) return new Stmt.Block(block());
 
     return expressionStatement();
   }
+
 
   private Stmt ifStatement() {
     consume(LEFT_PAREN, "Expect '(' after if.");
@@ -99,6 +106,15 @@ public class Parser {
     return new Stmt.Var(name, initializer);
   }
 
+  private Stmt whileStatement() {
+    consume(LEFT_PAREN, "Expect '(' after 'while'");
+    var condition = expression();
+    consume(RIGHT_PAREN, "Expect ')' after condition");
+    var body = statement();
+
+    return new Stmt.While(condition, body);
+  }
+
   private Stmt expressionStatement() {
     var expr = expression();
     consume(SEMICOLON, "Expect ';' after expression.");
@@ -120,7 +136,7 @@ public class Parser {
   }
 
   private Expr assignment() {
-    var expr = equality();
+    var expr = or();
 
     if (match(EQUAL)) {
       var equals = previous();
@@ -132,6 +148,28 @@ public class Parser {
       }
 
       error(equals, "Invalid assignment target");
+    }
+    return expr;
+  }
+
+  private Expr or() {
+    var expr = and();
+
+    while (match(OR)) {
+      var operator = previous();
+      var right = and();
+      expr = new Expr.Logical(expr, operator, right);
+    }
+    return expr;
+  }
+
+  private Expr and() {
+    var expr = equality();
+
+    while (match(AND)) {
+      var operator = previous();
+      var right = equality();
+      expr = new Expr.Logical(expr, operator, right);
     }
     return expr;
   }

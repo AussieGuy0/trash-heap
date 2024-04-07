@@ -72,6 +72,12 @@ public class Interpreter {
         }
         yield null;
       }
+      case Stmt.While aWhile -> {
+        while (isTruthy(evaluate(aWhile.condition(), environment))) {
+          execute(aWhile.body(), environment);
+        }
+        yield null;
+      }
     };
   }
 
@@ -96,6 +102,21 @@ public class Interpreter {
         var value = evaluate(assign.value(), environment);
         environment.assign(assign.name(), value);
         yield value;
+      }
+      case Expr.Logical logical -> {
+        var left = evaluate(logical.left(), environment);
+        if (logical.operator().type() == TokenType.OR) {
+          if (isTruthy(left)) {
+            yield left;
+          }
+        } else if (logical.operator().type() == TokenType.AND) {
+          if (!isTruthy(left)) {
+            yield left;
+          }
+        } else {
+          throw new IllegalStateException("unreachable");
+        }
+        yield evaluate(logical.right(), environment);
       }
     };
   }

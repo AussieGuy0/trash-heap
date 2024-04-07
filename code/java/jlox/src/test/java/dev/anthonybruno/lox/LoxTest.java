@@ -75,6 +75,37 @@ public class LoxTest {
   }
 
   @Test
+  public void ifStatementWithElseExecutesIf() {
+    lox.run("""
+      if (3 > 2) {
+         print("hello");
+      } else {
+         print("world");
+      }
+      """);
+
+    assertThat(printer.getPrintedLines()).containsExactly(
+      "hello"
+    );
+  }
+
+  @Test
+  public void ifStatementWithElseExecutesElse() {
+    lox.run("""
+      if (3 > 4) {
+         print("hello");
+      } else {
+         print("world");
+      }
+      """);
+
+    assertThat(printer.getPrintedLines()).containsExactly(
+      "world"
+    );
+  }
+
+
+  @Test
   public void ifStatementIsFalse() {
     lox.run("""
       if (3 > 4) {
@@ -83,5 +114,40 @@ public class LoxTest {
       """);
 
     assertThat(printer.getPrintedLines()).isEmpty();
+  }
+
+  @Test
+  public void logicalOr() {
+    lox.run("""
+      print "hi" or 2;
+      """);
+
+    assertThat(printer.getPrintedLines()).containsExactly("hi");
+  }
+
+  @Test
+  public void logicalOrIsFalseOnNil() {
+    lox.run("""
+      print nil or "hi";
+      """);
+
+    assertThat(printer.getPrintedLines()).containsExactly("hi");
+  }
+
+  @Test
+  public void whileLoop() {
+    lox.run("""
+      var x = 1;
+      while (x <= 3) {
+         print(x);
+         x = x + 1;
+      }
+      """);
+
+    assertThat(printer.getPrintedLines()).containsExactly(
+      "1",
+      "2",
+      "3"
+    );
   }
 }
