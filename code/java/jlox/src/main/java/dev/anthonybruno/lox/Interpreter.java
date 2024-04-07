@@ -1,11 +1,18 @@
 package dev.anthonybruno.lox;
 
+import dev.anthonybruno.lox.printer.Printer;
+
 import javax.annotation.Nullable;
 import java.util.List;
 import java.util.Objects;
 
 public class Interpreter {
   private final Environment globalEnvironment = new Environment();
+  private final Printer printer;
+
+  public Interpreter(Printer printer) {
+    this.printer = printer;
+  }
 
   enum ResultStatus {
     SUCCESS,
@@ -40,7 +47,7 @@ public class Interpreter {
       case Stmt.Expression expression -> evaluate(expression.expression(), environment);
       case Stmt.Print print -> {
         var value = evaluate(print.expression(), environment);
-        System.out.println(stringify(value));
+        printer.println(stringify(value));
         yield null;
       }
       case Stmt.Var var -> {
@@ -55,6 +62,14 @@ public class Interpreter {
       case Stmt.Block block -> {
         var newEnvironment = new Environment(environment);
         block.statements().forEach(blockStmt -> execute(blockStmt, newEnvironment));
+        yield null;
+      }
+      case Stmt.If stmtIf-> {
+        if (isTruthy(evaluate(stmtIf.condition(), environment))) {
+          execute(stmtIf.thenBranch(), environment);
+        } else if (stmtIf.elseBranch() != null){
+          execute(stmtIf.elseBranch(), environment);
+        }
         yield null;
       }
     };

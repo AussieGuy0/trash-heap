@@ -1,5 +1,7 @@
 package dev.anthonybruno.lox;
 
+import dev.anthonybruno.lox.printer.Printer;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -9,9 +11,13 @@ import java.nio.file.Path;
 
 public class Lox {
 
-  private final Interpreter interpreter = new Interpreter();
+  private final Interpreter interpreter;
   private boolean hadError = false;
   private boolean hadRuntimeError = false;
+
+  public Lox(Printer printer) {
+    interpreter = new Interpreter(printer);
+  }
 
   public void run(String[] args) throws IOException {
     if (args.length > 1) {

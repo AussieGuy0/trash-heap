@@ -11,8 +11,9 @@ import static dev.anthonybruno.lox.TokenType.*;
  * program        -> declaration* EOF;
  * declaration    -> varDecl | statement;
  * varDecl        -> "var" IDENTIFIER ( "=" expression )? ";";
- * statement      -> exprStmt | printStmt;
+ * statement      -> exprStmt | ifStmt | printStmt;
  * exprStmt       -> expression ";";
+ * ifStmt         -> "if" "(" expression ")" statement ( "else" statement )? ;
  * printStmt       -> "print" expression ";";
  *
  * expression     -> assignment;
@@ -62,10 +63,22 @@ public class Parser {
   }
 
   private Stmt statement() {
+    if (match(IF)) return ifStatement();
     if (match(PRINT)) return printStatement();
     if (match(LEFT_BRACE)) return new Stmt.Block(block());
 
     return expressionStatement();
+  }
+
+  private Stmt ifStatement() {
+    consume(LEFT_PAREN, "Expect '(' after if.");
+    var condition = expression();
+    consume(RIGHT_PAREN, "Expect ')' after if condition.");
+
+    var leftBranch = statement();
+    var elseBranch = match(ELSE) ? statement() : null;
+
+    return new Stmt.If(condition, leftBranch, elseBranch);
   }
 
   private Stmt printStatement() {

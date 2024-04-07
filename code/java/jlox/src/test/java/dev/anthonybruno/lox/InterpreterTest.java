@@ -1,5 +1,6 @@
 package dev.anthonybruno.lox;
 
+import dev.anthonybruno.lox.printer.InMemoryPrinter;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -8,7 +9,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class InterpreterTest {
 
-  private final Interpreter interpreter = new Interpreter();
+  private final Interpreter interpreter = new Interpreter(new InMemoryPrinter());
 
   @Test
   void evaluatesAddition() {

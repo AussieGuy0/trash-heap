@@ -27,6 +27,7 @@ public class GenerateAst {
       """
         Block      : List<Stmt> statements
         Expression : Expr expression
+        If         : Expr condition, Stmt thenBranch, @Nullable Stmt elseBranch
         Print      : Expr expression
         Var        : Token name, Expr initializer
         """
@@ -48,9 +49,12 @@ public class GenerateAst {
       })
       .toList();
 
-    writer.println("package dev.anthonybruno.lox;");
-    writer.println();
-    writer.println("import java.util.List;");
+    writer.print("""
+    package dev.anthonybruno.lox;
+    
+    import java.util.List;
+    import javax.annotation.Nullable;
+    """);
     writer.println();
     writer.print(STR."public sealed interface \{baseName} permits ");
     var counter = 0;
