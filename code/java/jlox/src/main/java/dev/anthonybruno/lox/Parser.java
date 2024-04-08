@@ -12,7 +12,10 @@ import static dev.anthonybruno.lox.TokenType.*;
  * declaration    -> varDecl | statement;
  * varDecl        -> "var" IDENTIFIER ( "=" expression )? ";";
  *
- * statement      -> exprStmt | ifStmt | printStmt | whileStmt | block;
+ * statement      -> exprStmt | forStmt | ifStmt | printStmt | whileStmt | block;
+ * forStmt        -> "for" "(" ( varDecl | exprStmt | ";" )
+ *                   expression? ";"
+ *                   expression? ")" statement ;
  * exprStmt       -> expression ";";
  * ifStmt         -> "if" "(" expression ")" statement ( "else" statement )? ;
  * printStmt      -> "print" expression ";";
@@ -68,6 +71,7 @@ public class Parser {
   }
 
   private Stmt statement() {
+    if (match(FOR)) return forStatement();
     if (match(IF)) return ifStatement();
     if (match(PRINT)) return printStatement();
     if (match(WHILE)) return whileStatement();
@@ -76,6 +80,42 @@ public class Parser {
     return expressionStatement();
   }
 
+  private Stmt forStatement() {
+    consume(LEFT_PAREN, "Expect '(' after 'for'.");
+
+    Stmt initializer;
+    if (match(SEMICOLON)) {
+      initializer = null;
+    } else if (match(VAR)) {
+      initializer = varDeclaration();
+    } else {
+      initializer = expressionStatement();
+    }
+
+    Expr condition = null;
+    if (!check(SEMICOLON)) {
+      condition = expression();
+    }
+    consume(SEMICOLON, "Expect ';' after loop condition");
+
+    Expr increment = null;
+    if (!check(RIGHT_PAREN)) {
+      increment = expression();
+    }
+    consume(RIGHT_PAREN, "Expect ')' after for clauses.");
+    var body = statement();
+    if (increment != null) {
+      body = new Stmt.Block(List.of(body, new Stmt.Expression(increment)));
+    }
+    if (condition == null) {
+      condition = new Expr.Literal(true);
+    }
+    body = new Stmt.While(condition, body);
+    if (initializer != null) {
+      body = new Stmt.Block(List.of(initializer, body));
+    }
+    return body;
+  }
 
   private Stmt ifStatement() {
     consume(LEFT_PAREN, "Expect '(' after if.");
@@ -189,7 +229,7 @@ public class Parser {
   private Expr comparison() {
     var expr = term();
 
-    while (match(GREATER, GREATER_EQUAL, LESS_EQUAL)) {
+    while (match(GREATER, GREATER_EQUAL, LESS_EQUAL, LESS)) {
       var operator = previous();
       var right = term();
       expr = new Expr.Binary(expr, operator, right);

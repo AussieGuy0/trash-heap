@@ -27,26 +27,26 @@ public class LoxTest {
   @Test
   public void runVariableScoping() {
     lox.run("""
-     var a = "global a";
-     var b = "global b";
-     var c = "global c";
-     {
-       var a = "outer a";
-       var b = "outer b";
-       {
-         var a = "inner a";
-         print a;
-         print b;
-         print c;
-       }
-       print a;
-       print b;
-       print c;
-     }
-     print a;
-     print b;
-     print c;
-      """);
+      var a = "global a";
+      var b = "global b";
+      var c = "global c";
+      {
+        var a = "outer a";
+        var b = "outer b";
+        {
+          var a = "inner a";
+          print a;
+          print b;
+          print c;
+        }
+        print a;
+        print b;
+        print c;
+      }
+      print a;
+      print b;
+      print c;
+       """);
 
     assertThat(printer.getPrintedLines()).containsExactly(
       "inner a",
@@ -148,6 +148,23 @@ public class LoxTest {
       "1",
       "2",
       "3"
+    );
+  }
+
+  @Test
+  public void forLoop() {
+    lox.run("""
+      var a = 0;
+      var temp;
+           
+      for (var b = 1; a < 20; b = temp + b) {
+        print a;
+        temp = a;
+        a = b;
+      }
+      """);
+    assertThat(printer.getPrintedLines()).containsExactly(
+      "0", "1", "1", "2", "3", "5", "8", "13"
     );
   }
 }
